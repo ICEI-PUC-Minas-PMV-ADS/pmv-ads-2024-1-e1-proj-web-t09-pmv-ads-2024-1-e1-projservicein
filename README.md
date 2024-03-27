@@ -1,25 +1,25 @@
-# Título do Projeto
+# ServiceIn
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Eixo 1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Aline Moreira
+* Aloísio Luchesi de Almeida Silva
+* Fabiano Silva Lima
+* Gustavo de Figueiredo Souza Oliveira
+* Milton Roberto Garcia Ventura
+* Sara Gracielle Rodrigues Santos
 
 ## Orientador
 
-* Nome completo do professor
+* Humberto Azevedo Nigri do Carmo
 
 # Documentação
 
