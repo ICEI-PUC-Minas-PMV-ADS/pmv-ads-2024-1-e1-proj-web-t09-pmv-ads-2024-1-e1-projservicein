@@ -45,6 +45,7 @@
 </tbody>
 </table>
 
+
 ## Histórias de Usuários
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
