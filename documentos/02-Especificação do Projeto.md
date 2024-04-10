@@ -5,7 +5,7 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Prestador de serviço </th>
+<th colspan="2">Perfil 1: Prestador de serviço </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
