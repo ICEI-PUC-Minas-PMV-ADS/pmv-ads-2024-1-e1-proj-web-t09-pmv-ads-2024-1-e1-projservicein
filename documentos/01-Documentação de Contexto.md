@@ -33,7 +33,9 @@ Em conclusão, a criação de uma plataforma de anúncio de prestadores de servi
 
 Como boa parte da população brasileira encontra dificuldades para encontrar empregos formais, seja por difícil acesso a informações de vagas, capacitação profissional ou um bom currículo, muitos acabam optando ou se veem na situação em que a única opção de sobrevivência é ser um trabalhador autônomo ou mesmo atuar na informalidade. E por outro lado existem os que desejam contratar os serviços dessas pessoas que prestam pequenos trabalhos.
 O público-alvo, portanto, é composto pelos contratantes que necessitam de serviços variados, e de homens e mulheres que se dispõem a trabalhar com serviços braçais, consertos no geral, reformas, pessoas que desejam trabalhar como diaristas, fazendo manutenção, limpezas de ambientes, babás, etc. 
+
 Com o intuito de conhecer melhor o público alvo foram realizadas entrevistas com prestadores de serviços, sendo eles 2 eletricistas, 1 diarista, e 1 prestador de pequenos serviços gerais, comumente chamado de marido de aluguel. Através das entrevistas foi possível observar um aspecto em comum relacionado a forma como buscam clientes, todos informaram que novos clientes são obtidos majoritariamente através de indicação de clientes anteriores. Não foi observado, na maior parte dos prestadores de serviço, escassez ou dificuldade para arrumar novos clientes, porém, deve-se pontuar que apesar de não faltar trabalho para esses profissionais, esse tipo de divulgação não garante que todos os possíveis contratantes que necessitam dos serviços serão alcançados.
+
 Também foram realizadas entrevistas com possíveis contratantes destes prestadores de serviço, foram realizadas 5 entrevistas. Nessas entrevistas observou-se que é comum a dificuldade de encontrar prestadores de serviço nos momentos de necessidade, sendo preciso buscar por indicações de vizinhos ou pessoas próximas onde nem sempre o prestador estará disponível no momento necessário. 
 
 
