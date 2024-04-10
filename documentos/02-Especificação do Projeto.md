@@ -49,14 +49,19 @@
 
 **Prioridade: Alta / Média / Baixa. 
 
-### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
+### Requisitos não Funcionais
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
-
+| RNF-01 | A aplicação deve permitir meios de compartilhamento web. | Alta |
+| RNF-02 | A aplicação deve ser responsiva. | Média |
+| RNF-03 | RNF-03	A aplicação deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox, Edge e Safari. |	Alta |
+| RNF-04 | A aplicação deve ter bom nível de contraste entre os elementos da tela. | Média |
+| RNF-05 | A aplicação web deve possuir um bom desempenho de tempo. Estimativa: Processamento de telas em até 15 segundos. | Média |
+| RNF-06 | RNF-06	A aplicação deve ser escalável, capaz de lidar com um aumento significativo com os números de usuários e no volume de dados sem comprometer o desempenho. |	Alta |
+| RNF-07 | A aplicação deve ser responsiva, adaptando-se automaticamente a diferentes tamanhos de tela e resolução, proporcionando uma boa experiência de usuários em dispositivos móveis. | Baixa |
+| RNF-08 | RNF-08	A aplicação deve ser de fácil manutenção, com código bem organizado e documentado, facilitando futuras atualizações e correções de bugs. |	Média |
+ 
 **Prioridade: Alta / Média / Baixa. 
 
