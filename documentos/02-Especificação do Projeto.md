@@ -23,17 +23,16 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
-
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Prestador de serviço | encontrar clientes com maior facilidade | atender maior quantidade de clientes. |        
+| Prestador de serviço | definir um raio de ação | atender clientes em uma região geográfica definida. |
+| Prestador de serviço | contactar possível cliente | definir detalhes, viabilidade e valor de serviço. |
+| Contratante | encontrar profissionais | realizar serviços e tarefas domésticas. |
+| Contratante | encontrar profissionais qualificados | relizar serviços que necessitem de qualificação técnica. |
+| Contratante | visualizar a avaliação de outros contratantes | garantir um serviço bem feito.| 
+| Contratante | avaliar o serviço prestado | outros contratantes possam realizar melhor as escolhas na plataforma. |
+
 
 ## Requisitos do Projeto
 
