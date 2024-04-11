@@ -9,7 +9,7 @@
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px"> Prestador de serviço que deseja oferecer seus serviços a residências que necessitem</td>
+<td width="600px"> Prestador de serviço que deseja oferecer seus serviços a residências que necessitem.</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
@@ -17,7 +17,7 @@
 1. Encontrar clientes;
 2. Possibilidade de contato com o contratante para ajustar detalhes do serviço;
 3. Definir um raio de ação em que estará disponível para atender clientes;
-4. Informar qual ou quais os serviços prestados;
+4. Informar qual ou quais os serviços prestados.
 </td>
 </tr>
 </tbody>
@@ -65,10 +65,10 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |	A aplicação deve permitir ao usuário cadastrar uma conta |	Alta |
-| RF-02 |	A aplicação deve permitir ao usuário fazer login na sua conta	| Alta |  
-| RF-03	| A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário Contratante localizar a categoria de serviço ou prestador de serviço que deseja |	Alta |
-| RF-04	A | aplicação deve permitir que ao usuário Prestador de Serviço fazer o cadastro dos serviços oferecidos |	Alta |
+| RF-01 |	A aplicação deve permitir ao usuário cadastrar uma conta. |	Alta |
+| RF-02 |	A aplicação deve permitir ao usuário fazer login na sua conta.	| Alta |  
+| RF-03	| A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário Contratante localizar a categoria de serviço ou prestador de serviço que deseja. |	Alta |
+| RF-04 | Aplicação deve permitir ao usuário Prestador de Serviço fazer o cadastro dos serviços oferecidos. |	Alta |
 | RF-05	| A aplicação deve permitir ao usuário Prestador de Serviço disponibilizar informações dos serviços oferecidos como custos e contato. |	Alta | 
 | RF-06	| A aplicação deve permitir ao usuário Contratante disponibilizar as informações de preferências de horário de atendimento.	| Alta |
 | RF-07	| A aplicação deve permitir ao usuário Contratante realizar avaliação ao usuário Prestador de Serviço mediante o serviço recebido e vice-versa. |	Alta |
@@ -84,10 +84,10 @@
 |--------|-------------------------|----|
 | RNF-01 | A aplicação deve permitir meios de compartilhamento web. | Alta |
 | RNF-02 | A aplicação deve ser de fácil manutenção, com código bem organizado e documentado, facilitando futuras atualizações e correções de bugs. |	Média |
-| RNF-03 | RNF-03	A aplicação deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox, Edge e Safari. |	Alta |
+| RNF-03 |	A aplicação deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox, Edge e Safari. |	Alta |
 | RNF-04 | A aplicação deve ter bom nível de contraste entre os elementos da tela. | Média |
 | RNF-05 | A aplicação web deve possuir um bom desempenho de tempo. Estimativa: Processamento de telas em até 15 segundos. | Média |
-| RNF-06 | RNF-06	A aplicação deve ser escalável, capaz de lidar com um aumento significativo com os números de usuários e no volume de dados sem comprometer o desempenho. |	Alta |
+| RNF-06 | A aplicação deve ser escalável, capaz de lidar com um aumento significativo com os números de usuários e no volume de dados sem comprometer o desempenho. |	Alta |
 | RNF-07 | A aplicação deve ser responsiva, adaptando-se automaticamente a diferentes tamanhos de tela e resolução, proporcionando uma boa experiência de usuários em dispositivos móveis. | Baixa |
 
 **Prioridade: Alta / Média / Baixa. 
