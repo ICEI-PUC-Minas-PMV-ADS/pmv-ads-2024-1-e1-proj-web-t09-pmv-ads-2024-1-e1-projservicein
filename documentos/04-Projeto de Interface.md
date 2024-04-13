@@ -5,7 +5,7 @@
 
 O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o [ambiente Penpot do projeto](https://design.penpot.app/#/view/6e12068a-09a0-801a-8004-24997643a9c1?page-id=6e12068a-09a0-801a-8004-24997643a9c2&section=interactions&index=0&share-id=2bf3009f-0e08-815c-8004-318b892e5d59).
 
-![Tela_home_page](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Tela_home_page.png)
+![Fluxograma_servicein](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Fluxograma_servicein.png)
 
 <figure>
       <figcaption>Figura 3 - Tela Home Page</figcaption>
