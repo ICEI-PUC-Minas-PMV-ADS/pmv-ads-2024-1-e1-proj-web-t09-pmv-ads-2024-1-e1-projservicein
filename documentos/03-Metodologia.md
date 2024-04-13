@@ -28,6 +28,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 O quadro kanban do projeto está GitHub e acessível através do link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/955/views/1, abaixo segue a imagem do quadro kanban no estado atual:
 
 ![Planejamento_Kanban_etapa2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/9179a0a611ced5188fab1f75a2bf6643ab82a66a/documentos/img/Planejamento_Kanban_etapa2.png)
+
 Figura 1 - Tela do quadro kanban no GitHub
 
 ### Etiquetas
@@ -43,6 +44,7 @@ Figura 1 - Tela do quadro kanban no GitHub
 </ul>
 
 ![TelaEtiquetas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/assets/165446124/470e7246-1d13-44fb-b403-f6bc71318822)
+
 Figura 2 - Quadro de etiquetas utilizadas nas tarefas
   
 ### Ferramentas
