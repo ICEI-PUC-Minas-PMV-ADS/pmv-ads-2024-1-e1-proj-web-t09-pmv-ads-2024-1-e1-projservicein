@@ -14,7 +14,9 @@ O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário p
 As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 3 grandes blocos, descritos a seguir. São eles:
 
 Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);
+
 Conteúdo - apresenta o conteúdo da tela em questão;
+
 Rodapé - apresenta informações sobre os direitos autorais.
 
 ![estrutura_do_prototipo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/estrutura_do_prototipo.png)
