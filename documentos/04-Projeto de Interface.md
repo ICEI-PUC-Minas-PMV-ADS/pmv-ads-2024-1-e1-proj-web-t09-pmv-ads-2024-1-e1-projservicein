@@ -8,7 +8,7 @@ O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário p
 ![Fluxograma_servicein](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Fluxograma_servicein.png)
 
 <figure>
-      <figcaption>Figura 3 - Tela Home Page</figcaption>
+      <figcaption>Figura 1 - Fluxograma</figcaption>
 </figure>
 <hr>
 
