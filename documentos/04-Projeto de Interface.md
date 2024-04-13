@@ -24,6 +24,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
      <figcaption>Figura 1 - Estrutura padrão do site</figcaption>
 </figure>
 <hr>
+<hr>
 
 <h3><b>Tela - Home Page</b></h3>
 <p> A tela de home page apresenta um banner "Precisando de um servicinho?" no centro da tela, apresenta a barra de pesquisa para procura das categorias de serviço oferecidos pela plataforma no canto inferior da tela, e os botões de cadastro e login no canto superior direito da tela.</p>
@@ -33,6 +34,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <figure>
       <figcaption>Figura 2 - Tela Home Page</figcaption>
 </figure>
+<hr>
  
 <h3><b>Tela de cadastro</b></h3>
 <p> A tela de home page apresenta um banner "Precisando de um servicinho?" no centro da tela, apresenta a barra de pesquisa para procura das categorias de serviço oferecidos pela plataforma no canto inferior da tela, e os botões de cadastro e login no canto superior direito da tela.</p>
@@ -42,6 +44,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <figure>
       <figcaption>Figura 3 - Tela de cadastro</figcaption>
 </figure>
+<hr>
 
 <h3><b>Tela de cadastro - Prestador</b></h3>
 <p> A tela de home page apresenta um banner "Precisando de um servicinho?" no centro da tela, apresenta a barra de pesquisa para procura das categorias de serviço oferecidos pela plataforma no canto inferior da tela, e os botões de cadastro e login no canto superior direito da tela.</p>
@@ -51,12 +54,14 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <figure>
       <figcaption>Figura 4 - Tela de cadastro de prestador (Parte 1)</figcaption>
 </figure>
+<hr>
 
 ![Tela_cadastro_prestador2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Tela_cadastro_prestador2.png)
 
 <figure>
       <figcaption>Figura 5 - Tela de cadastro de prestador (Parte 2)</figcaption>
 </figure>
+<hr>
 
 <h3><b>Tela de Login</b></h3>
 <p> A tela de home page apresenta um banner "Precisando de um servicinho?" no centro da tela, apresenta a barra de pesquisa para procura das categorias de serviço oferecidos pela plataforma no canto inferior da tela, e os botões de cadastro e login no canto superior direito da tela.</p>
@@ -66,6 +71,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <figure>
       <figcaption>Figura 6 - Tela de login</figcaption>
 </figure>
+<hr>
 
 <h3><b>Tela de Usuário logado</b></h3>
 <p> A tela de home page apresenta um banner "Precisando de um servicinho?" no centro da tela, apresenta a barra de pesquisa para procura das categorias de serviço oferecidos pela plataforma no canto inferior da tela, e os botões de cadastro e login no canto superior direito da tela.</p>
@@ -75,6 +81,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <figure>
       <figcaption>Figura 7 - Tela Usuário Logado</figcaption>
 </figure>
+<hr>
 
 <h3><b>Tela de chat</b></h3>
 <p> A tela de home page apresenta um banner "Precisando de um servicinho?" no centro da tela, apresenta a barra de pesquisa para procura das categorias de serviço oferecidos pela plataforma no canto inferior da tela, e os botões de cadastro e login no canto superior direito da tela.</p>
@@ -84,5 +91,5 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <figure>
       <figcaption>Figura 8 - Tela de chat</figcaption>
 </figure>
-
+<hr>
 
