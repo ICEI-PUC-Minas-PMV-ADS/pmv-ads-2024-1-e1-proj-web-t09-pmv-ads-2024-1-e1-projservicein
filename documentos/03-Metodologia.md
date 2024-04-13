@@ -16,6 +16,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Product Owner: Sara Gracielle Rodrigues Santos
 - Equipe de Desenvolvimento: Aline Moreira, Aloísio Luchesi de Almeida Silva, Fabiano Silva Lima, Gustavo de Figueiredo Souza Oliveira, Milton Roberto Garcia Ventura, Sara Gracielle Rodrigues Santos
 - Equipe de Design: Milton Roberto Garcia Ventura, Sara Gracielle Rodrigues Santos
+<hr>
 
 ### Processo
 
@@ -29,7 +30,9 @@ O quadro kanban do projeto está GitHub e acessível através do link https://gi
 
 ![Planejamento_Kanban_etapa2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/9179a0a611ced5188fab1f75a2bf6643ab82a66a/documentos/img/Planejamento_Kanban_etapa2.png)
 
-Figura 1 - Tela do quadro kanban no GitHub
+<figure>
+      <figcaption>Figura 1 - Tela do quadro kanban no GitHub
+</figure>
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
@@ -45,8 +48,11 @@ Figura 1 - Tela do quadro kanban no GitHub
 
 ![TelaEtiquetas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/assets/165446124/470e7246-1d13-44fb-b403-f6bc71318822)
 
-Figura 2 - Quadro de etiquetas utilizadas nas tarefas
-  
+<figure>
+<figcaption>Figura 2 - Quadro de etiquetas utilizadas nas tarefas
+</figure>
+<hr>
+ 
 ### Ferramentas
 
 [Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
@@ -60,7 +66,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Projeto de Interface                | Penpot                             | (https://design.penpot.app/#/view/6e12068a-09a0-801a-8004-24997643a9c1?page-id=6e12068a-09a0-801a-8004-24997643a9c2&section=interactions&index=0&share-id=2bf3009f-0e08-815c-8004-318b892e5d59)                                                                                                                                                                                            |
 | Gerenciamento do Projeto            | GitHub Projects                    | (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/955)                                                                    |
 
-
+<hr>
 ### Estratégia de Organização de Codificação 
 
 Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
