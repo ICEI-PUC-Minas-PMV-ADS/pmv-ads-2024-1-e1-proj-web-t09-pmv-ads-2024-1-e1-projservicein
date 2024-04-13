@@ -17,6 +17,8 @@ Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação
 Conteúdo - apresenta o conteúdo da tela em questão;
 Rodapé - apresenta informações sobre os direitos autorais.
 
+![estrutura_do_prototipo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/estrutura_do_prototipo.png)
+Figura 1 - Estrutura padrão do site
 
 
 [Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
