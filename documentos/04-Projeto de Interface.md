@@ -24,7 +24,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
      <figcaption>Figura 1 - Estrutura padrão do site</figcaption>
 </figure>
 <hr>
-<hr>
+
 
 <h3><b>Tela - Home Page</b></h3>
 <p> A tela de home page apresenta um banner "Precisando de um servicinho?" no centro da tela, apresenta a barra de pesquisa para procura das categorias de serviço oferecidos pela plataforma no canto inferior da tela, e os botões de cadastro e login no canto superior direito da tela.</p>
@@ -91,5 +91,5 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <figure>
       <figcaption>Figura 8 - Tela de chat</figcaption>
 </figure>
-<hr>
+
 
