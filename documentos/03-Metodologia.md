@@ -16,7 +16,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 - Product Owner: Sara Gracielle Rodrigues Santos
 - Equipe de Desenvolvimento: Aline Moreira, Aloísio Luchesi de Almeida Silva, Fabiano Silva Lima, Gustavo de Figueiredo Souza Oliveira, Milton Roberto Garcia Ventura, Sara Gracielle Rodrigues Santos
 - Equipe de Design: Milton Roberto Garcia Ventura, Sara Gracielle Rodrigues Santos
-<hr>
+  
 
 ### Processo
 
@@ -51,7 +51,7 @@ O quadro kanban do projeto está GitHub e acessível através do link https://gi
 <figure>
 <figcaption>Figura 2 - Quadro de etiquetas utilizadas nas tarefas
 </figure>
-<hr>
+
  
 ### Ferramentas
 
@@ -66,7 +66,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Projeto de Interface                | Penpot                             | (https://design.penpot.app/#/view/6e12068a-09a0-801a-8004-24997643a9c1?page-id=6e12068a-09a0-801a-8004-24997643a9c2&section=interactions&index=0&share-id=2bf3009f-0e08-815c-8004-318b892e5d59)                                                                                                                                                                                            |
 | Gerenciamento do Projeto            | GitHub Projects                    | (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/955)                                                                    |
 
-<hr>
+
+
 ### Estratégia de Organização de Codificação 
 
 Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
