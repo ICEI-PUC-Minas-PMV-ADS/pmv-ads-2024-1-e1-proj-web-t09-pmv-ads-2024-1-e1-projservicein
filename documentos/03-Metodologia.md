@@ -53,14 +53,14 @@ Figura 2 - Quadro de etiquetas utilizadas nas tarefas
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
-|-------------------------------------|------------------------------------|----------------------------------------|
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                                                                                                                   |
+|-------------------------------------|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Repositório de código fonte         | GitHub                             | (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/tree/main/codigo-fonte)|
 | Documentos do projeto               | GitHub                             | (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/tree/main/documentos)  |
-| Projeto de Interface                | Figma                              | (https://design.penpot.app/#/view/6e12068a-09a0-801a-8004-24997643a9c1?page-id=6e12068a-09a0-801a-8004-24997643a9c2&section=interactions&index=0&share-id=2bf3009f-0e08-815c-8004-318b892e5d59)                                                                                                                                                                                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Projeto de Interface                | Penpot                             | (https://design.penpot.app/#/view/6e12068a-09a0-801a-8004-24997643a9c1?page-id=6e12068a-09a0-801a-8004-24997643a9c2&section=interactions&index=0&share-id=2bf3009f-0e08-815c-8004-318b892e5d59)                                                                                                                                                                                            |
+| Gerenciamento do Projeto            | GitHub Projects                    | (https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/955)                                                                    |
 
 
 ### Estratégia de Organização de Codificação 
 
-Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](http://https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
