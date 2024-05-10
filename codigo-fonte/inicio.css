@@ -7,23 +7,23 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "navbar"
-    "texto" 
-    "busca"
-    "titmaisbuscados"
-    "maisbuscados"
-    "rodape";
+        "texto" 
+        "busca"
+        "titmaisbuscados"
+        "maisbuscados"
+        "rodape";
     row-gap: 10px;
     column-gap: 0px;
 }
 
 .navbar {
-    display: flex;
-    justify-content: flex-end;
     background-color: hsl(225, 3%, 70%, 33%);
-    padding: 1px 20px;
+    padding: 1px 10px;
     margin: none;
     border: none;
     grid-area: navbar;
+    box-sizing: border-box;
+    overflow: auto;
 }
 
 .btnlogin {
@@ -36,7 +36,8 @@ font-size: 16px;
 border: 0;
 margin: 1px;
 display: flex;
-justify-content: flex-end;
+margin-left: auto ;
+margin-right: 10px;
 
 }
 
@@ -45,22 +46,22 @@ background-color:  hsla(266, 31%, 45%);
 color: #ffffff; 
 padding: 10px 10px; 
 border-radius: 5px; /* Adicionar borda arredondada */
-cursor: pointer; /* Alterar o cursor para indicar interatividade */
+cursor: pointer; /* cursor */
 font-size: 16px;
 border: 0;
-margin: 1px;
-float:right;
+margin-right: 5px;
+
 }
 
 .navbar .logo img {
     align-items:start;
     width: 120px;
     height: 40px;
-    margin: 0;
-    border: 0;
-    padding-left: 0%;
     justify-content: left;
+    border-color: #212022;
+    
 }
+
 
 /* meio da página */
 
@@ -104,7 +105,7 @@ float:right;
     grid-area: busca;
     height: 50px; 
     width: 90%;
-    padding: 5px; /* Adicione algum preenchimento para melhorar a aparência */
+    padding: 5px; 
     font-size: 20px;
     border: 1px solid hsla(266, 31%, 45%);
     border-radius: 5px;
@@ -117,8 +118,8 @@ float:right;
     color: #ffffff; 
     padding: 10px 10px; 
     border: none; 
-    border-radius: 5px; /* Adicionar borda arredondada */
-    cursor: pointer; /* Alterar o cursor para indicar interatividade */
+    border-radius: 5px; 
+    cursor: pointer; 
     font-size: 16px;
     margin: 1px;
     align-items: center;
@@ -126,26 +127,17 @@ float:right;
 
 .titmaisbuscados  {
     color: rgb(111, 80, 151, 0.8);
-    font-weight: 700;
-    font-size: 50px;
-    justify-content:flex-start;
+    font-weight: 600;
+    font-size: 45px;
     flex-flow: row wrap;
     font-style:initial;
-    display: inline-block;
-    position: relative;
     width: 90%;
-    padding: 20px; /* Adicione algum preenchimento para melhorar a aparência */
+    padding: 20px; 
     margin: 5px;
     grid-area: titmaisbuscados;
  
 }
 
-#maisbuscados img {
-    width: 400px;
-    display: block;
-    margin: 0 auto;
-    }
-    
 #maisbuscados {
     color: rgb(111, 80, 151);
     font-weight: 700;
@@ -157,7 +149,15 @@ float:right;
     align-items: center;
     margin: 30px 10px 30px;
     grid-area: maisbuscados;
+
 }
+
+#maisbuscados img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    }
+    
 
 
 /* rodapé */
@@ -183,13 +183,47 @@ footer {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 70px 200px 1fr;
         grid-template-areas: "navbar"
-        "texto" 
-        "busca"
+        "texto busca" 
         "maisbuscados"
         "rodape";
         row-gap: 10px;
         column-gap: 20px;
     }
+
+    .texto { 
+        padding: 10px;
+        margin: 20px;
+
+    }
+    .texto h1 {
+        text-align:left;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .texto p {
+        text-align:left;
+        font-size: 13px;
+    }
+
+    .busca {
+        margin: 0 auto;
+        width:90%;
+    
+    }
+
+    .titmaisbuscados  {
+        font-weight: 600;
+        font-size: 25px;
+        margin: 5px;
+       
+    }
+
+    footer {
+       font-size: 10px;
+
+    }
+    
 }
