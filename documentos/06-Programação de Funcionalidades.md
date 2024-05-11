@@ -1,9 +1,5 @@
 # Programação de Funcionalidades
 
-Implementação da aplicação descritas por meio dos requisitos codificados. 
-
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
-
 ### Tela Home (RF-03)
 
 Responsável: Aline
@@ -15,6 +11,7 @@ Exemplo da tela Home:
 ![Print homepage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/1ae4994af33fbaa8440925334326aaa16ded5d71/documentos/img/Homepage.png)
 
 Requisito atendido
+
 RF-03: A aplicação deve oferecer uma funcionalidade de pesquisa para permitir ao usuário Contratante localizar a categoria de serviço ou prestador de serviço que deseja.
 
 Artefatos da funcionalidade
@@ -26,7 +23,7 @@ Artefatos da funcionalidade
 Estrutura de Dados
 
 <ul>
-[Homepage.HTML](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/0fa324bf377bbc7987d71acff8d90533630f4c1f/codigo-fonte/Homepage/Homepage.HTML)
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/0fa324bf377bbc7987d71acff8d90533630f4c1f/codigo-fonte/Homepage/Homepage.HTML">Homepage.HTML</a></li>
 </ul>
 
 #### Requisito atendido
