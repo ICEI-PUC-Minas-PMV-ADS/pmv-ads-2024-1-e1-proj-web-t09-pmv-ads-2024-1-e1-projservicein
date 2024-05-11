@@ -67,7 +67,7 @@
 |-------|---------------------------------|----|
 | RF-01 |	A aplicação deve permitir ao usuário cadastrar uma conta. |	Alta |
 | RF-02 |	A aplicação deve permitir ao usuário fazer login na sua conta.	| Alta |  
-| RF-03	| A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário Contratante localizar a categoria de serviço ou prestador de serviço que deseja. |	Alta |
+| RF-03	| A aplicação deve oferecer uma funcionalidade de pesquisa para permitir ao usuário Contratante localizar a categoria de serviço ou prestador de serviço que deseja. |	Alta |
 | RF-04 | Aplicação deve permitir ao usuário Prestador de Serviço fazer o cadastro dos serviços oferecidos. |	Alta |
 | RF-05	| A aplicação deve permitir ao usuário Prestador de Serviço disponibilizar informações dos serviços oferecidos como custos e contato. |	Alta | 
 | RF-06	| A aplicação deve permitir ao usuário Contratante disponibilizar as informações de preferências de horário de atendimento.	| Alta |
