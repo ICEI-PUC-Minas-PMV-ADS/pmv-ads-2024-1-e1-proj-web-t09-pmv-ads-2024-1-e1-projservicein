@@ -4,9 +4,31 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 [Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
 
-### Título da funcionalidade
+### Tela Home (RF-03)
 
-[Adicione imagem da funcionalidade/tela]
+Responsável: Aline
+
+A pesquisa pode ser feita atarvés da barra de busca. As estruturas de dados foram baseadas em HTML e CSS. 
+
+Exemplo da tela Home:
+
+![Homepage](
+
+Requisito atendido
+RF-001: O site deve permitir ao usuário cadastrar uma conta.
+
+Artefatos da funcionalidade
+●Homepgae.html
+
+●Homepage.css
+
+Estrutura de Dados
+●[Homepage.HTML](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/0fa324bf377bbc7987d71acff8d90533630f4c1f/codigo-fonte/Homepage/Homepage.HTML)
+
+Instruções de acesso
+Abra um navegador de Internet e informe a seguinte URL: [https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/src/paginaHome/index.html]
+
+Ao clicar em “Cadastre-se” no canto superior direito da tela, terá acesso a página de cadastro.
 
 
 #### Requisito atendido
