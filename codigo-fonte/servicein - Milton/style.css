@@ -1,0 +1,262 @@
+/* Definições do body da página */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6f5097;
+}
+
+/* Definições do cabeçalho da página */
+header{
+    background: rgba(176, 176, 180, 0.335);
+    display: grid;
+    grid-template-columns: 1fr 30fr 1fr 1fr;
+    /* Areas de grid utilizadas para fazer o header (1 linha, 4 colunas) */
+    grid-template-areas: "logo . userroundbtn logoffbtn";
+}
+
+/* Posicionamento e ajuste da logo no header */
+header>.logo{
+    grid-area: logo;
+    max-height: 35px;
+    align-self: center;
+    padding: 5px;
+}
+
+/* Posicionamento e ajuste do botão de usuário redondo no header */
+header>.userroundbtn{
+    grid-area: userroundbtn;
+    max-height: 35px;
+    align-self: center;
+    padding: 5px;
+}
+
+/* Posicionamento e ajuste do botão de logoff no header */
+header>.logoffbtn{
+    grid-area: logoffbtn;
+    color:#6f5097;
+    border-radius: 10px;
+    max-height: 25px;
+    align-self: center;
+    padding: 5px;
+    margin: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: solid #6f5097;
+    text-align: left;
+    /* Utilização e posicionamento do ícone de logoff dentro do botão logoff*/
+    background-image: url(imgs/logofficon.png);
+    background-position: 94%;
+    background-size: 15px;
+    background-repeat: no-repeat;
+
+}
+
+/* Definições do conteúdo principal da página */
+main{
+    display: grid;
+    /* Áreas de grid utilizadas para posicionar o conteúdo principal (6 linhas, 1 coluna) */
+    grid-template-areas: "search"
+    "label"
+    "banner"
+    "usrdscr"
+    "usrdscr2"
+    "footer";
+    padding-top: 10px;
+}
+
+/* Posicionamento e ajuste do campo de pesquisa */
+main>.search{
+    grid-area: search;
+    /* Atribuição do flex layout para o campo de pesquisa */
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Posicionamento e ajuste de tamanho da barra de pesquisa */
+main>.search>.searchbar{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Personalização do campo de pesquisa */
+input[name="busca"] {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 5px;
+    background: rgba(176, 176, 180, 0.335);
+    border: #6f50977a solid 1px;
+    box-sizing: border-box;
+    padding-left: 35px;
+    /* Utilização e posicionamento do ícone de lupa dentro do campo de pesquisa */
+    background-image: url(imgs/magnifier.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+/* Personalização do campo de pesquisa quando está em foco (quando o campo é clicado) */
+input[type="text"]:focus {
+    outline: none;
+    border: solid #6f5097 2px;
+    background-color: rgba(176, 176, 180, 0.25);
+}
+
+/* Posicionamento e ajuste do botão "Buscar" ao lado do campo de pesquisa */
+main>.search>button{
+    background-color: #6f5097;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+/* Etiqueta de texto simples para mostrar o texto "Mais procurados" */
+main>.label{
+    grid-area: label;
+    padding-left: 10px;
+}
+
+/* Posicionamento e ajuste do banner "Mais procurados" */
+main>.banner{
+    grid-area: banner;
+    display: flex;
+    justify-content: center;
+    /* Verificar se remove ou não, ao remover o comportamento do banner fica diferente em telas menores */
+    flex-wrap: wrap;
+}
+
+/* Borda arredondada e redimensionamento das imagens do banner */
+main>.banner>div>img{
+    width: 95%;
+    border-radius: 10px;
+}
+
+/* Container para exibição das informações de usuário */
+main>.usrcontainer{
+    grid-area: usrdscr;
+    grid-template-columns: 1fr 30fr 1fr;
+    display: grid;
+    grid-template-areas: "usrimg usrdscr usrprice .";
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Posicionamento e ajuste da foto do usuário no container */
+main>.usrcontainer>img{
+    grid-area: usrimg;
+    max-width: 105px;
+    align-self: center;
+    justify-self: right;
+}
+
+/* Posicionamento e ajuste de parágrafo dentro do container */
+main>.usrcontainer>p{
+    color: black;
+    grid-area: usrdscr;
+    background-color: rgba(6, 6, 92, 0.335);
+    align-content: center;
+    padding-left: 20px;
+    min-height: 130px;
+}
+
+/* Posicionamento e ajuste de preço do serviço dentro do container */
+main>.usrcontainer>.price{
+    grid-area: usrprice;
+    font-size: xx-large;
+    max-width: 120px;
+    text-align: left;
+    background-color: transparent;
+    padding-right: 40px;
+}
+
+/* Notas adicionais relacionadas ao pagamento, ex: texto "preço médio" */
+main>.usrcontainer>.pricenote{
+    grid-area: usrprice;
+    text-align:left;
+    align-content: end;
+    padding-bottom: 10px;
+}
+
+/* Posicionamento e ajuste das estrelas de avaliação do usuário */
+main>.usrcontainer>.fourstars{
+    grid-area: usrprice;
+    justify-self: center;
+    align-self: start;
+    padding: 30px;
+}
+
+/* Container usuário 2 
+Não consegui utilizar o mesmo container para exibir 2 usuários sem perder as configurações, acabei criando outro container */
+
+main>.usrcontainer2{
+    grid-area: usrdscr2;
+    display: grid;
+    grid-template-areas: "usrimg usrdscr usrprice .";
+    grid-template-columns: 1fr 30fr 1fr;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main>.usrcontainer2>img{
+    grid-area: usrimg;
+    max-width: 105px;
+    align-self: center;
+    justify-self: right;
+}
+
+main>.usrcontainer2>p{
+    grid-area: usrdscr;
+    color: black;
+    background-color: rgba(6, 6, 92, 0.335);
+    align-content: center;
+    padding-left: 20px;
+    min-height: 130px;
+}
+
+main>.usrcontainer2>.price{
+    grid-area: usrprice;
+    font-size: xx-large;
+    max-width: 120px;
+    text-align: left;
+    background-color: transparent;
+    padding-right: 40px;
+}
+
+main>.usrcontainer2>.pricenote{
+    grid-area: usrprice;
+    text-align:left;
+    align-content: end;
+    padding-bottom: 10px;
+}
+
+main>.usrcontainer2>.fourstars{
+    grid-area: usrprice;
+    justify-self: center;
+    align-self: start;
+    padding: 30px;
+}
+
+/* Posicionamento e ajustes do rodapé da página */
+footer{
+    grid-area: footer;
+    display: flex;
+    background-color: rgba(176, 176, 180, 0.335);
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+}
+
+/* Ajuste das imagens utilizadas no rodapé */
+footer>p>img{
+    padding: 10px;
+    max-height: 35px;
+}
+
+
+
+
