@@ -12,7 +12,7 @@ A pesquisa pode ser feita atarvés da barra de busca. As estruturas de dados for
 
 Exemplo da tela Home:
 
-  <img src="img/hompege.png">
+![Print homepage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/1ae4994af33fbaa8440925334326aaa16ded5d71/documentos/img/Homepage.png)
 
 Requisito atendido
 RF-001: O site deve permitir ao usuário cadastrar uma conta.
