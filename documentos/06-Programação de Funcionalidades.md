@@ -12,17 +12,21 @@ A pesquisa pode ser feita atarvés da barra de busca. As estruturas de dados for
 
 Exemplo da tela Home:
 
-![Homepage](
+<figure>
+  <img src=hompege.png>
+</figure>
 
 Requisito atendido
 RF-001: O site deve permitir ao usuário cadastrar uma conta.
 
 Artefatos da funcionalidade
-●Homepgae.html
-
-●Homepage.css
+<ul>
+<li>●Homepgae.html
+<li>●Homepage.css
+</ul>
 
 Estrutura de Dados
+
 ●[Homepage.HTML](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/0fa324bf377bbc7987d71acff8d90533630f4c1f/codigo-fonte/Homepage/Homepage.HTML)
 
 Instruções de acesso
