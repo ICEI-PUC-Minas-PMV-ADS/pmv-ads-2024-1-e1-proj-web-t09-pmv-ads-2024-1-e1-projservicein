@@ -27,13 +27,6 @@ Estrutura de Dados
 
 [Homepage.HTML](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/0fa324bf377bbc7987d71acff8d90533630f4c1f/codigo-fonte/Homepage/Homepage.HTML)
 
-
-Instruções de acesso
-Abra um navegador de Internet e informe a seguinte URL:
-
-Ao clicar em “Cadastre-se” no canto superior direito da tela, terá acesso a página de cadastro.
-
-
 #### Requisito atendido
 
 [RF-X: adicione a descrição do requisito atendido]
