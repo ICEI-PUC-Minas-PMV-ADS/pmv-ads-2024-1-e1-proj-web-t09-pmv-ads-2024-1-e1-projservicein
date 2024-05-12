@@ -51,7 +51,7 @@ RF-05: A aplicação deve permitir ao usuário Prestador de Serviço disponibili
 </ul>
 <hr>
 
-### Tela Chat (RF-06 e RF-07)
+### Tela Chat (RF-06 , RF-07)
 
 Responsável: Sara Gracielle
 
