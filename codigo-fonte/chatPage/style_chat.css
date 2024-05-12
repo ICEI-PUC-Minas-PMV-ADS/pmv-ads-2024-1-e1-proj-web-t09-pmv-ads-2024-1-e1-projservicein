@@ -174,7 +174,6 @@ main>.usrcontainer>.fourstars {
 /*Chatbox*/
 /* Configuração do chat-box */
 main .chat-box {
-    width: 100%;
     max-height: 360px;
     overflow-y: auto;
     scrollbar-width: none;
