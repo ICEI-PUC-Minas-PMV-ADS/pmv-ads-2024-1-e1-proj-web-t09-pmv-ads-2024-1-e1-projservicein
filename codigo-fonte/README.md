@@ -4,7 +4,7 @@
 
 - Pasta codigo-fonte/homePage: index.html, index.css - Desenvolvedora responsável: Aline Moreira.
 - Pasta codigo-fonte/usuarioLogado: usrlogado.html, usrlogado.css - Desenvolvedor responsável: Milton Roberto Garcia Ventura.
-- Pasta codigo-fonte/chatPage: index.html, index.css - Desenvolvedora responsável: Sara Gracielle Rodrigues Santos.
+- Pasta codigo-fonte/chatPage: chat.html, style_chat.css - Desenvolvedora responsável: Sara Gracielle Rodrigues Santos.
 - Pasta codigo-fonte/Projeto: cadastro.html, style.css - Desenvolvedor responsável: Fabiano Lima.
 
 
