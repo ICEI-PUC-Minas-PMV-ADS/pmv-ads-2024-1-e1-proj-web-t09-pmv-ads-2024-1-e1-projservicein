@@ -5,9 +5,8 @@
 - Pasta codigo-fonte/homePage: index.html, index.css - Desenvolvedora responsável: Aline Moreira.
 - Pasta codigo-fonte/usuarioLogado: usrlogado.html, usrlogado.css - Desenvolvedor responsável: Milton Roberto Garcia Ventura.
 - Pasta codigo-fonte/chatPage: index.html, index.css - Desenvolvedora responsável: Sara Gracielle Rodrigues Santos.
-- Pasta codigo-fonte/NomeDaPasta: pagina.html, pagina.css - Desenvolvedora responsável: Aluna Z.
-- Pasta codigo-fonte/NomeDaPasta: pagina.html, pagina.css - Desenvolvedora responsável: Aluna Z.
-- Pasta codigo-fonte/NomeDaPasta: pagina.html, pagina.css - Desenvolvedora responsável: Aluna Z.
+- Pasta codigo-fonte/Projeto: cadastro.html, style.css - Desenvolvedor responsável: Fabiano Lima.
+
 
 ## Instalação do Site
 
@@ -21,6 +20,7 @@ O site em HTML/CSS é um projeto estático, logo pode ser utilizado tanto em ser
 - Homepage: arquivos HTML, CSS e imagens.
 - Usuário Logado: arquivos HTML, CSS e imagens.
 - Chat Page: arquivos HTML, CSS e imagens.
+- Cadastro: arquivos HTML, CSS e imagens
 
 ### Atualizado
 - Logo, esquema de cores, imagens das telas do site e do fluxograma
