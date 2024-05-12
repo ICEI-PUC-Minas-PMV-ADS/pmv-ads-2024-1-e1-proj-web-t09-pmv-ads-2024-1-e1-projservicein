@@ -1,0 +1,344 @@
+*{margin: 0px; padding: 0px;}
+
+/* início da pag, cabeçalho */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "navbar"
+        "texto" 
+        "busca"
+        "titmaisbuscados"
+        "maisbuscados"
+        "rodape";
+    row-gap: 10px;
+    column-gap: 0px;
+}
+
+.navbar {
+    background-color: hsl(225, 3%, 70%, 33%);
+    padding: 1px 10px;
+    margin: none;
+    border: none;
+    grid-area: navbar;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.btnlogin {
+background-color:  hsla(266, 31%, 45%); 
+color: #ffffff; 
+padding: 10px 10px;
+border-radius: 5px; /* Adicionar borda arredondada */
+cursor: pointer; /* Alterar o cursor para indicar interatividade */
+font-size: 16px;
+border: 0;
+margin: 1px;
+display: flex;
+margin-left: auto ;
+margin-right: 10px;
+
+}
+
+.btncadastro {
+background-color:  hsla(266, 31%, 45%); 
+color: #ffffff; 
+padding: 10px 10px; 
+border-radius: 5px; /* Adicionar borda arredondada */
+cursor: pointer; /* cursor */
+font-size: 16px;
+border: 0;
+margin-right: 5px;
+
+}
+
+.navbar .logo img {
+    align-items:start;
+    width: 120px;
+    height: 40px;
+    justify-content: left;
+    border-color: #212022;
+    
+}
+
+
+/* meio da página */
+
+.texto {
+    padding: 40px;
+    margin: 45px; ;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    letter-spacing: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 80%;
+    grid-area: texto;
+    background-color:  hsla(266, 31%, 45%, 0.5);
+    border-radius: 10px;
+
+}
+
+.texto h1 {
+    color: black;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.texto p {
+    text-align: justify;
+    color: #212022;
+    font-size: 25px;
+}
+
+.busca {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-area: busca;
+  
+}
+
+.busca #digitbusca {
+    color: #212022;
+    grid-area: busca;
+    height: 50px; 
+    width: 90%;
+    padding: 5px; 
+    font-size: 20px;
+    border: 1px solid hsla(266, 31%, 45%);
+    border-radius: 5px;
+    margin: 10px;
+   
+}
+
+.busca button {
+    background-color:  hsla(266, 31%, 45%); 
+    color: #ffffff; 
+    padding: 10px 10px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;
+    margin: 1px;
+    align-items: center;
+}
+
+.titmaisbuscados  {
+    color: rgb(111, 80, 151, 0.8);
+    font-weight: 600;
+    font-size: 45px;
+    flex-flow: row wrap;
+    font-style:initial;
+    width: 90%;
+    padding: 20px; 
+    margin: 5px;
+    grid-area: titmaisbuscados;
+ 
+}
+
+#maisbuscados {
+    color: rgb(111, 80, 151);
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 30px 10px 30px;
+    grid-area: maisbuscados;
+
+}
+
+#maisbuscados img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    }
+    
+
+
+/* rodapé */
+
+footer {
+    text-align: center, end;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 1;
+    border: 2;
+    grid-area: rodape;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            height: 30px; /* Altura do rodapé */
+            background-color: hsl(225, 3%, 70%, 33%);
+            color: black;
+            text-align: center;
+            line-height: 30px; /* Centralize verticalmente */
+}
+
+
+@media (max-width: 720px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 200px 1fr;
+        grid-template-areas: "navbar"
+        "texto busca" 
+        "maisbuscados"
+        "rodape";
+        row-gap: 10px;
+        column-gap: 20px;
+    }
+
+    .texto { 
+        padding: 10px;
+        margin: 20px;
+
+    }
+    .texto h1 {
+        text-align:left;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .texto p {
+        text-align:left;
+        font-size: 13px;
+    }
+
+    .busca {
+        margin: 0 auto;
+        width:90%;
+    
+    }
+
+    .titmaisbuscados  {
+        font-weight: 600;
+        font-size: 25px;
+        margin: 5px;
+       
+    }
+
+    footer {
+       font-size: 10px;
+
+    }
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0, .212);
+}
+
+.form {
+    width: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+.login-button button {
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem o;
+    padding: 0.8rem 1.2rerm;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #6c63ff;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.gender-grup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 o.5rem;
+}
+
+.gender-input{
+    display: flex;
+    align-items: center;   
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: nome;
+    background-color: #6c63ff;
+    padding: 0.62;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover{
+    background-color: #6b63fff1;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: #fff;
+    font-weight: #6b63fff1;
+    color: #fff;
+}
+
+
+
+
