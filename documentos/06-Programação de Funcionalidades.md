@@ -72,11 +72,12 @@ RF-07: A aplicação deve permitir ao usuário Contratante realizar avaliação 
   <li>chat.html</li>
   <li>style_chat.css</li>
 </ul>
-<hr>
 
 #### Instruções de acesso
 
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/codigo-fonte/chatPage/chat.html">chat.html</a></li>
+
+<hr>
 
 
 
