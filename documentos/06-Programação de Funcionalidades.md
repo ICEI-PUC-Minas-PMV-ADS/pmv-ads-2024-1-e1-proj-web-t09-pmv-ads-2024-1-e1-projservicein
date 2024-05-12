@@ -124,7 +124,7 @@ RF-04:
 #### Artefatos da funcionalidade
 <ul>
 <li>cadastro.html
-<li>style.css
+<li>cadastro.css
 </ul>
 
 #### Estrutura de Dados
