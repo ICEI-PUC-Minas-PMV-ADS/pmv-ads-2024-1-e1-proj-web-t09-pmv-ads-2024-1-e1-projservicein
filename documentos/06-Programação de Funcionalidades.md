@@ -106,7 +106,7 @@ RF-02: A aplicação deve permitir ao usuário fazer login na sua conta.
 </ul>
 <hr>
 
-### Tela de cadastro (RF-01)
+### Tela de cadastro (RF-01, RF-04)
 
 Responsável: Fabiano
 
@@ -114,16 +114,17 @@ O usuário deve fazer o login através do seus respectivos e-mail e senha. As es
 
 Exemplo da tela de Cadastro:
 
-![Print homepage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/login.png)
+![Print tela de cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/login.png)
 
 #### Requisito atendido
 
-RF-02: A aplicação deve permitir ao usuário fazer login na sua conta.
+RF-01: .
+RF-04:
 
 #### Artefatos da funcionalidade
 <ul>
-<li>index.html
-<li>index.css
+<li>cadastro.html
+<li>style.css
 </ul>
 
 #### Estrutura de Dados
@@ -132,15 +133,6 @@ RF-02: A aplicação deve permitir ao usuário fazer login na sua conta.
 <li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/codigo-fonte/Projeto/index.html">index.html</a></li>
 </ul>
 <hr>
-
-
-
-
-
-
-
-
-
 
 
 > **Links Úteis**:
