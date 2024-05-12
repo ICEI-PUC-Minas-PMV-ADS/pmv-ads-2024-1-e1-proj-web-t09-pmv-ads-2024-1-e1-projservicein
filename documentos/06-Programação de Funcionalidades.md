@@ -37,7 +37,7 @@ Exemplo da tela de Usuário Logado:
 
 ![Print usuariologado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Tela_usu%C3%A1rio_logado.png)
 
-#### Requisito atendido
+#### Requisitos atendidos
 
 RF-03: A aplicação deve oferecer uma funcionalidade de pesquisa para permitir ao usuário Contratante localizar a categoria de serviço ou prestador de serviço que deseja.
 
