@@ -16,4 +16,4 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 
 Para a criação do logotipo do site foi utilizada a cor violeta, pois....... . Além disso, foi utilizado o ícone de uma chave de fenda, pois ela remete diretamente a serviços em geral. 
 
-![Logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/5a252a9b6e0511cbbb97dc32c16c029ccdc5e004/documentos/img/logo.png)
+![Logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/logo.png)
