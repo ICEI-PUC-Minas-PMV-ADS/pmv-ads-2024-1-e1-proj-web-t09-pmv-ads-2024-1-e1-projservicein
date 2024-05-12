@@ -124,7 +124,7 @@ RF-04:Aplicação deve permitir ao usuario Prestador de serviço fazer o cadastr
 
 #### Artefatos da funcionalidade
 <ul>
-<li>cadastro.html
+<li>cadastro.HTML
 <li>cadastro.css
 </ul>
 
