@@ -118,8 +118,8 @@ Exemplo da tela de Cadastro:
 
 #### Requisito atendido
 
-RF-01: .
-RF-04:
+RF-01: A alicação deve permitir ao usuário cadastrar uma conta.
+RF-04:Aplicação deve permitir ao usuario Prestador de serviço fazer o cadastro dos serviços oferecidos.
 
 #### Artefatos da funcionalidade
 <ul>
