@@ -49,6 +49,7 @@ RF-05: A aplicação deve permitir ao usuário Prestador de Serviço disponibili
   <li>usrlogado.html</li>
   <li>usrlogado.css</li>
 </ul>
+<hr>
 
 ### Tela Chat (RF-06 e RF-07)
 
@@ -71,6 +72,7 @@ RF-07: A aplicação deve permitir ao usuário Contratante realizar avaliação 
   <li>chat.html</li>
   <li>style_chat.css</li>
 </ul>
+<hr>
 
 #### Instruções de acesso
 
