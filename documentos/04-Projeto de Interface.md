@@ -77,7 +77,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela de Login</b></h3>
 <p> A tela de login apresenta os campos para preenchimento de e-mail e senha do usuário.</p>
 
-![Tela_login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Tela_login.png)
+![Tela_login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/login.png)
 
 <figure>
       <figcaption>Figura 7 - Tela de login</figcaption>
