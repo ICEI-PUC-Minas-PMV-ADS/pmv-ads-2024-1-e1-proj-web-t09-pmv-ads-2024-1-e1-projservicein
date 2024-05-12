@@ -30,7 +30,7 @@ RF-03: A aplicação deve oferecer uma funcionalidade de pesquisa para permitir 
 
 Responsável: Milton
 
-A pesquisa pode ser feita atarvés da barra de busca. As estruturas de dados foram baseadas em HTML e CSS.
+A pesquisa pode ser feita através da barra de busca. As estruturas de dados foram baseadas em HTML e CSS.
 As informações do Prestador de Serviço relacionadas a realização do serviço e o preço podem ser visualizadas na tela do usuário logado.
 
 Exemplo da tela de Usuário Logado:
@@ -49,9 +49,31 @@ RF-05: A aplicação deve permitir ao usuário Prestador de Serviço disponibili
   <li>usrlogado.css</li>
 </ul>
 
+### Tela Chat (RF-06 e RF-07)
+
+Responsável: Sara Gracielle
+
+O acesso ao chat pode ser realizado através do login do usuário e permite que o usuário contratante negocie os detalhes de serviço como preferência de horário de atendimento como outras informações. Também permite que o contratante avalie o trabalho realizado pelo prestador de serviço e vice-versa. As estruturas de dados foram baseadas em HTML e CSS.
+
+Exemplo da tela de Chat:
+
+![Print usuariologado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/chatPage_vizualizacao.jpg)
+
+#### Requisitos atendidos
+
+RF-06 :A aplicação deve permitir ao usuário Contratante disponibilizar as informações de preferências de horário de atendimento.
+
+RF-07: A aplicação deve permitir ao usuário Contratante realizar avaliação ao usuário Prestador de Serviço mediante o serviço recebido e vice-versa.
+
+#### Artefatos da funcnionalidade
+<ul>
+  <li>chat.html</li>
+  <li>style_chat.css</li>
+</ul>
+
 #### Instruções de acesso
 
-<li><a href="https://raw.githack.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/main/codigo-fonte/usuarioLogado/usrlogado.html">usrlogado.html</a></li>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/codigo-fonte/chatPage/chat.html">chat.html</a></li>
 
 
 
