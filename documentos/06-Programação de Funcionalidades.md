@@ -106,32 +106,39 @@ RF-02: A aplicação deve permitir ao usuário fazer login na sua conta.
 </ul>
 <hr>
 
+### Tela de cadastro (RF-01)
 
+Responsável: Fabiano
 
+O usuário deve fazer o login através do seus respectivos e-mail e senha. As estruturas de dados foram baseadas em HTML e CSS. 
+
+Exemplo da tela de Cadastro:
+
+![Print homepage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/login.png)
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
-
+RF-02: A aplicação deve permitir ao usuário fazer login na sua conta.
 
 #### Artefatos da funcionalidade
-
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
+<ul>
+<li>index.html
+<li>index.css
+</ul>
 
 #### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
+<ul>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/codigo-fonte/Projeto/index.html">index.html</a></li>
+</ul>
+<hr>
 
 
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
 
 
-#### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+
+
 
 
 
