@@ -25,6 +25,7 @@ RF-03: A aplicação deve oferecer uma funcionalidade de pesquisa para permitir 
 <ul>
 <li><a href="https://raw.githack.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/main/codigo-fonte/homePage/index.html">index.html</a></li>
 </ul>
+<hr>
 
 ### Tela Usuário Logado (RF-03, RF-05)
 
