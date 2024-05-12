@@ -1,6 +1,6 @@
 # Template padrão da Aplicação
 
-O layout padrão do site foi construído com as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript foi utilizada para a construção do menu responsivo.
+O layout padrão do site foi construído com as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript será utilizada para a construção do menu responsivo.
 
 As páginas terão como elementos padrões o menu de navegação, o header e o footer, além dos elementos de identidade visual citados abaixo:
 
@@ -14,6 +14,6 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 
 
 
-Para a criação do logotipo do site foi utilizada a cor violeta, pois....... . Além disso, foi utilizado o ícone de uma chave de fenda, pois ela remete diretamente a serviços em geral. 
+Para a criação do logotipo do site foi utilizada a cor violeta, pois desejamos fugir do convencional e evitar a associações com outras plataformas de emprego, como Linkedin. Além disso, foi utilizado o ícone de uma chave de fenda, pois ela remete diretamente a serviços em geral. 
 
 ![Logo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/logo.png)
