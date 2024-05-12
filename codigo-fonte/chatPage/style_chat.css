@@ -1,0 +1,345 @@
+/* Definições do body da página */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6f5097;
+}
+
+/* Definições do cabeçalho da página */
+header {
+    background: rgba(176, 176, 180, 0.335);
+    display: grid;
+    grid-template-columns: 1fr 30fr 1fr 1fr;
+    /* Areas de grid utilizadas para fazer o header (1 linha, 4 colunas) */
+    grid-template-areas: "logo . userroundbtn logoffbtn";
+}
+
+/* Posicionamento e ajuste da logo no header */
+header>.logo {
+    grid-area: logo;
+    max-height: 35px;
+    align-self: center;
+    padding: 5px;
+}
+
+/* Posicionamento e ajuste do botão de usuário redondo no header */
+header>.userroundbtn {
+    grid-area: userroundbtn;
+    max-height: 35px;
+    align-self: center;
+    padding: 5px;
+}
+
+/* Posicionamento e ajuste do botão de logout no header */
+header>.logoffbtn {
+    grid-area: logoffbtn;
+    color: #6f5097;
+    border-radius: 10px;
+    max-height: 25px;
+    align-self: center;
+    padding: 5px;
+    margin: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: solid #6f5097;
+    text-align: left;
+
+    /* Utilização e posicionamento do ícone de logoff dentro do botão logout*/
+    background-image: url(img/logofficon.png);
+    background-position: 94%;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    cursor: pointer
+}
+
+/* Definições do conteúdo principal da página */
+main {
+    display: grid;
+    /* Áreas de grid utilizadas para posicionar o conteúdo principal (7 linhas, 1 coluna) */
+    grid-template-areas: "search"
+        "label"
+        "banner"
+        "usrdscr"
+        "usrdscr2"
+        "usrdscr3"
+        "footer";
+    padding-top: 10px;
+}
+
+/* Posicionamento e ajuste do campo de pesquisa */
+main>.search {
+    grid-area: search;
+    /* Atribuição do flex layout para o campo de pesquisa */
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Posicionamento e ajuste de tamanho da barra de pesquisa */
+main>.search>.searchbar {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Personalização do campo de pesquisa */
+input[name="busca"] {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 5px;
+    background: rgba(176, 176, 180, 0.335);
+    border: #6f50977a solid 1px;
+    box-sizing: border-box;
+    padding-left: 35px;
+    /* Utilização e posicionamento do ícone de lupa dentro do campo de pesquisa */
+    background-image: url(img/magnifier.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+/* Personalização do campo de pesquisa quando está em foco (quando o campo é clicado) */
+input[type="text"]:focus {
+    outline: none;
+    border: solid #6f5097 2px;
+    background-color: rgba(176, 176, 180, 0.25);
+}
+
+/* Posicionamento e ajuste do botão "Buscar" ao lado do campo de pesquisa */
+main>.search>button {
+    background-color: #6f5097;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer
+}
+
+/* Container para exibição das informações de usuário */
+main>.usrcontainer {
+    grid-area: usrdscr;
+    grid-template-columns: 1fr 30fr 1fr;
+    display: grid;
+    grid-template-areas: "usrimg usrdscr usrprice .";
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Posicionamento e ajuste da foto do usuário no container */
+main>.usrcontainer>img {
+    grid-area: usrimg;
+    max-width: 105px;
+    align-self: center;
+    justify-self: right;
+}
+
+/* Posicionamento e ajuste de parágrafo dentro do container */
+main>.usrcontainer>p {
+    color: black;
+    grid-area: usrdscr;
+    background-color: rgba(6, 6, 92, 0.335);
+    align-content: center;
+    padding-left: 20px;
+    min-height: 130px;
+    border-radius: 0.5em;
+}
+
+/* Posicionamento e ajuste de preço do serviço dentro do container */
+main>.usrcontainer>.price {
+    grid-area: usrprice;
+    font-size: xx-large;
+    max-width: 120px;
+    text-align: left;
+    background-color: transparent;
+    padding-right: 40px;
+}
+
+/* Notas adicionais relacionadas ao pagamento, ex: texto "preço médio" */
+main>.usrcontainer>.pricenote {
+    grid-area: usrprice;
+    text-align: left;
+    align-content: end;
+    padding-bottom: 10px;
+}
+
+/* Posicionamento e ajuste das estrelas de avaliação do usuário */
+main>.usrcontainer>.fourstars {
+    grid-area: usrprice;
+    justify-self: center;
+    align-self: start;
+    padding: 30px;
+}
+
+/*Chatbox*/
+/* Configuração do chat-box */
+main .chat-box {
+    width: 100%;
+    max-height: 360px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    grid-area: usrdscr2;
+    border: 1px solid;
+    border-color: #6f5097;
+    border-radius: 0.1em;
+}
+
+/* Configuração da barra de rolagem inteira */
+main .chat-box::-webkit-scrollbar {
+    display: none;
+}
+
+/* Posicionamento e configuração do dia no chat-box */
+main .chat-box .day {
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    font-style: italic;
+}
+
+main .chat-box,
+.day span {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background: var(--light-blue);
+    color: var(--blue);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Posicionamento e configuração da imagem no chat-box */
+main .chat-box .msg img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Posicionamento do 1º chat-box */
+main .chat-box .msg {
+    display: flex;
+    grid-gap: 6px;
+    align-items: flex-start;
+}
+
+main .chat-box .profile .username {
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+main .chat-box .profile .time {
+    font-size: 12px;
+    color: var(--dark-grey);
+}
+
+/* Configuração parágrafo do 1º chat */
+main .chat-box .chat p {
+    color: black;
+    font-size: 14px;
+    padding: 6px 10px;
+    display: inline-block;
+    max-width: 400px;
+    line-height: 150%;
+}
+
+main .chat-box .msg:not(.me) .chat p {
+    border-radius: 0 5px 5px 5px;
+    background: rgba(6, 6, 92, 0.335);
+    color: black;
+}
+
+/* Posicionamento do parágrafo do 2º chat */
+main .chat-box .msg.me {
+    justify-content: flex-end;
+}
+
+main .chat-box .msg.me .profile {
+    text-align: 50%;
+}
+
+/* Configuração da imagem do 2º chat */
+main .chat-box .msg.me img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-end;
+}
+
+/* Configuração parágrafo do 2º chat */
+main .chat-box .msg.me p {
+    background: rgba(6, 6, 92, 0.335);
+    border-radius: 5px 0 5px 5px;
+    color: black;
+}
+
+/* Configuração margem do forms de envio */
+main form {
+    margin-top: 6px;
+}
+
+main .form-group {
+    width: 100%;
+    display: flex;
+    grid-gap: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+    background: rgba(176, 176, 180, 0.25);
+}
+
+main .form-group input {
+    flex-grow: 10;
+    padding: 10px 16px;
+    border-radius: 5px;
+    outline: none;
+    background: var(--grey);
+    border: none;
+    transition: all .3s ease;
+    width: 100%;
+}
+
+main .form-group input:focus {
+    box-shadow: 0 0 0 1px var(--blue), 0 0 0 4px var(--light-blue);
+}
+
+main .btn-send {
+    padding: 0 16px;
+    background: var(--blue);
+    border-radius: 5px;
+    color: var(--light);
+    cursor: pointer;
+    border: none;
+    transition: all .3s ease;
+}
+
+main .btn-send:hover {
+    background: var(--dark-blue);
+}
+
+/* Posicionamento e ajustes do rodapé da página */
+footer {
+    grid-area: footer;
+    display: flex;
+    background-color: rgba(176, 176, 180, 0.335);
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+}
+
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+/* Ajuste das imagens utilizadas no rodapé */
+footer>p>img {
+    padding: 10px;
+    max-height: 35px;
+}
