@@ -10,21 +10,53 @@ Exemplo da tela Home:
 
 ![Print homepage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/1ae4994af33fbaa8440925334326aaa16ded5d71/documentos/img/Homepage.png)
 
-Requisito atendido
+#### Requisito atendido
 
 RF-03: A aplicação deve oferecer uma funcionalidade de pesquisa para permitir ao usuário Contratante localizar a categoria de serviço ou prestador de serviço que deseja.
 
-Artefatos da funcionalidade
+#### Artefatos da funcionalidade
 <ul>
-<li>Homepgae.html
-<li>Homepage.css
+<li>index.html
+<li>index.css
 </ul>
 
-Estrutura de Dados
+#### Estrutura de Dados
 
 <ul>
-<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/0fa324bf377bbc7987d71acff8d90533630f4c1f/codigo-fonte/Homepage/Homepage.HTML">Homepage.HTML</a></li>
+<li><a href="https://raw.githack.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/main/codigo-fonte/homePage/index.html">index.html</a></li>
 </ul>
+
+### Tela Usuário Logado (RF-03, RF-05)
+
+Responsável: Milton
+
+A pesquisa pode ser feita atarvés da barra de busca. As estruturas de dados foram baseadas em HTML e CSS.
+As informações do Prestador de Serviço relacionadas a realização do serviço e o preço podem ser visualizadas na tela do usuário logado.
+
+Exemplo da tela de Usuário Logado:
+
+![Print usuariologado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Tela_usu%C3%A1rio_logado.png)
+
+#### Requisito atendido
+
+RF-03: A aplicação deve oferecer uma funcionalidade de pesquisa para permitir ao usuário Contratante localizar a categoria de serviço ou prestador de serviço que deseja.
+
+RF-05: A aplicação deve permitir ao usuário Prestador de Serviço disponibilizar informações dos serviços oferecidos como custos e contato.
+
+#### Artefatos da funcnionalidade
+<ul>
+  <li>usrlogado.html</li>
+  <li>usrlogado.css</li>
+</ul>
+
+#### Instruções de acesso
+
+<li><a href="https://raw.githack.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/main/codigo-fonte/usuarioLogado/usrlogado.html">usrlogado.html</a></li>
+
+
+
+
+
 
 #### Requisito atendido
 
