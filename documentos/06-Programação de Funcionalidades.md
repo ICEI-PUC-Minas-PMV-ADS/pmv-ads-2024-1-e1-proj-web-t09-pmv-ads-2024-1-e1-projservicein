@@ -79,7 +79,32 @@ RF-07: A aplicação deve permitir ao usuário Contratante realizar avaliação 
 
 <hr>
 
+### Tela Login (RF-02)
 
+Responsável: Gustavo
+
+O usuário deve fazer o login através do seus respectivos e-mail e senha. As estruturas de dados foram baseadas em HTML e CSS. 
+
+Exemplo da tela Login:
+
+![Print homepage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/login.png)
+
+#### Requisito atendido
+
+RF-02: A aplicação deve permitir ao usuário fazer login na sua conta.
+
+#### Artefatos da funcionalidade
+<ul>
+<li>index.html
+<li>index.css
+</ul>
+
+#### Estrutura de Dados
+
+<ul>
+<li><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/codigo-fonte/Projeto/index.html">index.html</a></li>
+</ul>
+<hr>
 
 
 
