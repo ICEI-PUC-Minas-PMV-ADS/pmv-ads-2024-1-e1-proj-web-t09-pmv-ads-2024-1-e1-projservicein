@@ -4,6 +4,7 @@ body{
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color:#6f5097;
+    /* Áreas de grid utilizadas para posicionar o conteúdo principal (7 linhas, 1 coluna) */    
     display: grid;
     grid-template-areas:"header" 
     "search"
@@ -65,6 +66,7 @@ main .search{
     grid-area: search;
     /* Atribuição do flex layout para o campo de pesquisa */
     display: flex;
+    max-height: 43px;
     padding-left: 5%;
     padding-right: 5%;
 }

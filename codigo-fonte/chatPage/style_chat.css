@@ -4,6 +4,16 @@ body{
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color:#6f5097;
+    /* Áreas de grid utilizadas para posicionar o conteúdo principal (7 linhas, 1 coluna) */
+    display: grid;
+    grid-template-areas:"header" 
+    "search"
+        "label"
+        "banner"
+        "usrdscr"
+        "usrdscr2"
+        "usrdscr3"
+        "footer";
 }
 
 /* Definições do cabeçalho da página */
@@ -48,15 +58,7 @@ header .logoffbtn{
 
 /* Definições do conteúdo principal da página */
 main {
-    display: grid;
-    /* Áreas de grid utilizadas para posicionar o conteúdo principal (7 linhas, 1 coluna) */
-    grid-template-areas: "search"
-        "label"
-        "banner"
-        "usrdscr"
-        "usrdscr2"
-        "usrdscr3"
-        "footer";
+    min-height: 100vh;
     padding-top: 10px;
 }
 
@@ -65,6 +67,7 @@ main .search {
     grid-area: search;
     /* Atribuição do flex layout para o campo de pesquisa */
     display: flex;
+    max-height: 43px;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -174,6 +177,8 @@ main .chat-box {
     border: 1px solid;
     border-color: #6f5097;
     border-radius: 0.1em;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Configuração da barra de rolagem inteira */
@@ -313,25 +318,19 @@ main .btn-send:hover {
 }
 
 /* Posicionamento e ajustes do rodapé da página */
-footer {
+/* Posicionamento e ajustes do rodapé da página */
+footer{
     grid-area: footer;
     display: flex;
     background-color: rgba(176, 176, 180, 0.335);
     justify-content: center;
     text-align: center;
-    height: 150px;
     width: 100%;
-}
-
-.fixarRodape {
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    text-align: center;
+    justify-self: flex-end;
 }
 
 /* Ajuste das imagens utilizadas no rodapé */
-footer p img {
+footer p img{
     padding: 10px;
     max-height: 35px;
 }
