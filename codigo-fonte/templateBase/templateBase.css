@@ -4,46 +4,56 @@ body{
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color:#6f5097;
+    display: grid;
+    grid-template-areas: "header"
+    "main"
+    "footer";
 }
 
 /* Definições do cabeçalho da página */
 header{
+    grid-area: header;
     background: rgba(176, 176, 180, 0.335);
-    display: grid;
-    grid-template-columns: 1fr 30fr 1fr 1fr;
-    /* Areas de grid utilizadas para fazer o header (1 linha, 4 colunas) */
-    grid-template-areas: "logo . userroundbtn logoffbtn";
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Posicionamento e ajuste da logo no header */
-header>.logo{
-    grid-area: logo;
-    max-height: 35px;
-    align-self: center;
+header img{
     padding: 5px;
+    max-height: 35px;
+}
+
+header .hdrbuttons{
+    display: flex;
+    align-items: center;
 }
 
 /* Definições do conteúdo principal da página */
 main{
-    height: 650px;
+    grid-area: main;
+    /* Necessário para que o rodapé sempre fique no final da págia */
+    min-height: 100vh;  
 }
 
 /* Posicionamento e ajustes do rodapé da página */
 footer{
+    grid-area: footer;
     display: flex;
     background-color: rgba(176, 176, 180, 0.335);
     justify-content: center;
     text-align: center;
-    height: 150px;
     width: 100%;
+    justify-self: flex-end;
 }
 
 /* Ajuste das imagens utilizadas no rodapé */
-footer>p>img{
+footer p img{
     padding: 10px;
     max-height: 35px;
 }
-
 
 
 

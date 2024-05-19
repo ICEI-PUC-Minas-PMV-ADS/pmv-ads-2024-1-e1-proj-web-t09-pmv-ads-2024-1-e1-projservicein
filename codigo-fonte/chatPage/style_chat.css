@@ -1,56 +1,49 @@
 /* Definições do body da página */
-body {
+body{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #6f5097;
+    color:#6f5097;
 }
 
 /* Definições do cabeçalho da página */
-header {
+header{
+    grid-area: header;
     background: rgba(176, 176, 180, 0.335);
-    display: grid;
-    grid-template-columns: 1fr 30fr 1fr 1fr;
-    /* Areas de grid utilizadas para fazer o header (1 linha, 4 colunas) */
-    grid-template-areas: "logo . userroundbtn logoffbtn";
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Posicionamento e ajuste da logo no header */
-header>.logo {
-    grid-area: logo;
-    max-height: 35px;
-    align-self: center;
+header img{
     padding: 5px;
-}
-
-/* Posicionamento e ajuste do botão de usuário redondo no header */
-header>.userroundbtn {
-    grid-area: userroundbtn;
     max-height: 35px;
-    align-self: center;
-    padding: 5px;
 }
 
-/* Posicionamento e ajuste do botão de logout no header */
-header>.logoffbtn {
-    grid-area: logoffbtn;
-    color: #6f5097;
+header .hdrbuttons{
+    display: flex;
+    align-items: center;
+}
+
+/* Posicionamento e ajuste do botão de logoff no header */
+header .logoffbtn{
+    color:#6f5097;
     border-radius: 10px;
     max-height: 25px;
-    align-self: center;
     padding: 5px;
     margin: 5px;
     padding-right: 20px;
     padding-bottom: 20px;
     border: solid #6f5097;
     text-align: left;
-
-    /* Utilização e posicionamento do ícone de logoff dentro do botão logout*/
+    /* Utilização e posicionamento do ícone de logoff dentro do botão logoff*/
     background-image: url(img/logofficon.png);
     background-position: 94%;
     background-size: 15px;
     background-repeat: no-repeat;
-    cursor: pointer
+
 }
 
 /* Definições do conteúdo principal da página */
@@ -68,7 +61,7 @@ main {
 }
 
 /* Posicionamento e ajuste do campo de pesquisa */
-main>.search {
+main .search {
     grid-area: search;
     /* Atribuição do flex layout para o campo de pesquisa */
     display: flex;
@@ -77,7 +70,7 @@ main>.search {
 }
 
 /* Posicionamento e ajuste de tamanho da barra de pesquisa */
-main>.search>.searchbar {
+main .search .searchbar {
     width: 100%;
     margin: 0 auto;
 }
@@ -106,7 +99,7 @@ input[type="text"]:focus {
 }
 
 /* Posicionamento e ajuste do botão "Buscar" ao lado do campo de pesquisa */
-main>.search>button {
+main .search button {
     background-color: #6f5097;
     color: white;
     border: 0px;
@@ -116,7 +109,7 @@ main>.search>button {
 }
 
 /* Container para exibição das informações de usuário */
-main>.usrcontainer {
+main .usrcontainer {
     grid-area: usrdscr;
     grid-template-columns: 1fr 30fr 1fr;
     display: grid;
@@ -127,7 +120,7 @@ main>.usrcontainer {
 }
 
 /* Posicionamento e ajuste da foto do usuário no container */
-main>.usrcontainer>img {
+main .usrcontainer img {
     grid-area: usrimg;
     max-width: 105px;
     align-self: center;
@@ -135,7 +128,7 @@ main>.usrcontainer>img {
 }
 
 /* Posicionamento e ajuste de parágrafo dentro do container */
-main>.usrcontainer>p {
+main .usrcontainer p {
     color: black;
     grid-area: usrdscr;
     background-color: rgba(6, 6, 92, 0.335);
@@ -146,7 +139,7 @@ main>.usrcontainer>p {
 }
 
 /* Posicionamento e ajuste de preço do serviço dentro do container */
-main>.usrcontainer>.price {
+main .usrcontainer .price {
     grid-area: usrprice;
     font-size: xx-large;
     max-width: 120px;
@@ -156,7 +149,7 @@ main>.usrcontainer>.price {
 }
 
 /* Notas adicionais relacionadas ao pagamento, ex: texto "preço médio" */
-main>.usrcontainer>.pricenote {
+main .usrcontainer .pricenote {
     grid-area: usrprice;
     text-align: left;
     align-content: end;
@@ -164,7 +157,7 @@ main>.usrcontainer>.pricenote {
 }
 
 /* Posicionamento e ajuste das estrelas de avaliação do usuário */
-main>.usrcontainer>.fourstars {
+main .usrcontainer .fourstars {
     grid-area: usrprice;
     justify-self: center;
     align-self: start;
@@ -338,7 +331,7 @@ footer {
 }
 
 /* Ajuste das imagens utilizadas no rodapé */
-footer>p>img {
+footer p img {
     padding: 10px;
     max-height: 35px;
 }

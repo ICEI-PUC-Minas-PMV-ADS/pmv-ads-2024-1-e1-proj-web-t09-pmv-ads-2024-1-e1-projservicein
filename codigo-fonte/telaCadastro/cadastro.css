@@ -1,0 +1,200 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6f5097;
+    display: grid;
+    grid-template-areas: "header"
+        "main"
+        "footer";
+}
+
+/* início da pag, cabeçalho */
+/* Definições do cabeçalho da página */
+header{
+    grid-area: header;
+    background: rgba(176, 176, 180, 0.335);
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    padding: 5px;
+    max-height: 35px;
+}
+
+header .hdrbuttons{
+    display: flex;
+    align-items: center;
+}
+
+/* Definições do conteúdo principal da página */
+main{
+    min-height: 100vh;  
+}
+
+form {
+    grid-area: main;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form p{
+    font-weight: bold;
+    width: 100%;
+}
+
+form div{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+form div input, form div textarea{
+    width: 100%;
+    border-radius: 3px;
+    background-color: rgba(210, 210, 213, 0.335);
+    border-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid;
+}
+
+form div label{
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+form .nome{
+    width: 100%;
+}
+
+form .cpf{
+    width: 50%;
+}
+
+form .registro{
+    width: 50%;
+}
+
+form .email{
+    width: 100%;
+}
+
+form .senha{
+    width: 100%;
+}
+
+form .rua{
+    width: 90%;
+}
+
+form .numero{
+    width: 10%;
+}
+
+form .complemento {
+    width: 50%;
+}
+
+form .bairro{
+    width: 50%;
+}
+
+form .cidade{
+    width: 50%;
+}
+
+form .estado{
+    width: 13%;
+}
+
+.prestador{
+    font-weight: bold;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.servprestado{
+    width: 100%;
+}
+
+.descricao{
+    width: 100%;
+}
+
+.descricao textarea{
+    height: 100px;
+}
+
+form .valor{
+    width: 40%;
+}
+
+.botao{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.botao button{
+    background-color: #6f5097;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+
+footer{
+    grid-area: footer;
+    display: flex;
+    background-color: rgba(176, 176, 180, 0.335);
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    justify-self: flex-end;
+}
+
+/* Ajuste das imagens utilizadas no rodapé */
+footer p img{
+    padding: 10px;
+    max-height: 35px;
+}
+
+@media screen and (max-width: 1190px) {
+    form{
+        width: 100%;
+    }
+    
+    .prestador{
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+  @media screen and (max-width: 700px) {
+    form{
+        width: 100%;
+    }
+    
+    form div{
+        flex-wrap: wrap;
+    }
+
+    .prestador{
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  }
+
