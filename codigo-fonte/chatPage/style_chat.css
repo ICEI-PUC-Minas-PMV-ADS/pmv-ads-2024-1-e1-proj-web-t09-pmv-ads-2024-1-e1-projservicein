@@ -6,6 +6,7 @@ body{
     color:#6f5097;
     /* Áreas de grid utilizadas para posicionar o conteúdo principal (7 linhas, 1 coluna) */
     display: grid;
+    min-height: 100vh;
     grid-template-areas:"header" 
     "search"
         "label"
@@ -25,6 +26,7 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    max-height: 45px;
 }
 
 header img{
@@ -58,7 +60,6 @@ header .logoffbtn{
 
 /* Definições do conteúdo principal da página */
 main {
-    min-height: 100vh;
     padding-top: 10px;
 }
 
@@ -326,7 +327,8 @@ footer{
     justify-content: center;
     text-align: center;
     width: 100%;
-    justify-self: flex-end;
+    height: 150px;
+    margin-top: auto;
 }
 
 /* Ajuste das imagens utilizadas no rodapé */

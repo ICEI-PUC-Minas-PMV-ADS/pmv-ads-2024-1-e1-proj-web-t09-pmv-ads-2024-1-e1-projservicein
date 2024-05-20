@@ -37,6 +37,44 @@ header .hdrbuttons{
 /* Definições do conteúdo principal da página */
 main{
     grid-area: main;
+    min-height: calc(100vh - 195px);  
+}
+
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.login input{
+    background-color: #6f5097;
+    width: 250px;
+    height: 40px;
+    border: 0;
+    border-radius: 15px;
+    color: #f8f5f5;
+    padding-left: 15px;
+    font-size: medium;
+    display: block;
+    margin-top: 15px;
+}
+
+.login button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #a97ee2; 
+    margin-top: 20px;
+    color: #f8f5f5;
+}
+
+input::placeholder {
+    color: #b6b6b6;
 }
 
 /* Posicionamento e ajustes do rodapé da página */
