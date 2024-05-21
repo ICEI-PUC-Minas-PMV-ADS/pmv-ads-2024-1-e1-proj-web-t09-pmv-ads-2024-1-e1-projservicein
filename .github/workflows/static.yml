@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './codigo-fonte/usuarioLogado/usrlogado.html'
+          path: './codigo-fonte/usuarioLogado'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
