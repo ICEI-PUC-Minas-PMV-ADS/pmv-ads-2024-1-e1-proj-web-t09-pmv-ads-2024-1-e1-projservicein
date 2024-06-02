@@ -1,23 +1,23 @@
 /* Definições do body da página */
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    color:#6f5097;
-    /* Áreas de grid utilizadas para posicionar o conteúdo principal (7 linhas, 1 coluna) */    
+    color: #6f5097;
+    /* Áreas de grid utilizadas para posicionar o conteúdo principal (7 linhas, 1 coluna) */
     display: grid;
     /* Necessário para que o rodapé sempre fique no final da págia */
     min-height: 100vh;
-    grid-template-areas:"header" 
-    "search"
-    "label"
-    "banner"
-    "usrdscr"
-    "footer";
+    grid-template-areas: "header"
+        "search"
+        "label"
+        "banner"
+        "prestadores"
+        "footer";
 }
 
 /* Definições do cabeçalho da página */
-header{
+header {
     grid-area: header;
     background: rgba(176, 176, 180, 0.335);
     display: flex;
@@ -28,19 +28,19 @@ header{
     max-height: 45px;
 }
 
-header img{
+header img {
     padding: 5px;
     max-height: 35px;
 }
 
-header .hdrbuttons{
+header .hdrbuttons {
     display: flex;
     align-items: center;
 }
 
 /* Posicionamento e ajuste do botão de logoff no header */
-header .logoffbtn{
-    color:#6f5097;
+header .logoffbtn {
+    color: #6f5097;
     border-radius: 10px;
     max-height: 25px;
     padding: 5px;
@@ -58,12 +58,12 @@ header .logoffbtn{
 }
 
 /* Definições do conteúdo principal da página */
-main{
+main {
     padding-top: 10px;
 }
 
 /* Posicionamento e ajuste do campo de pesquisa */
-main .search{
+main .search {
     grid-area: search;
     /* Atribuição do flex layout para o campo de pesquisa */
     display: flex;
@@ -73,7 +73,7 @@ main .search{
 }
 
 /* Posicionamento e ajuste de tamanho da barra de pesquisa */
-main .search .searchbar{
+main .search .searchbar {
     width: 100%;
     margin: 0 auto;
 }
@@ -102,7 +102,7 @@ input[type="text"]:focus {
 }
 
 /* Posicionamento e ajuste do botão "Buscar" ao lado do campo de pesquisa */
-main .search button{
+main .search button {
     background-color: #6f5097;
     color: white;
     border: 0px;
@@ -111,13 +111,13 @@ main .search button{
 }
 
 /* Etiqueta de texto simples para mostrar o texto "Mais procurados" */
-main .label{
+main .label {
     grid-area: label;
     padding-left: 10px;
 }
 
 /* Posicionamento e ajuste do banner "Mais procurados" */
-main .banner{
+main .banner {
     grid-area: banner;
     display: flex;
     justify-content: center;
@@ -127,75 +127,82 @@ main .banner{
 }
 
 /* Borda arredondada e redimensionamento das imagens do banner */
-main .banner div img{
+main .banner div img {
     width: 95%;
     border-radius: 10px;
 }
 
+main #cardPrestadores {
+    margin-bottom: 30px;
+}
+
 /* Container para exibição das informações de usuário */
-main .usrcontainer{
-    grid-area: usrdscr;
+main .prestadores {
+    grid-area: prestadores;
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 5px;
     box-sizing: border-box;
-    background-color: rgba(6, 6, 92, 0.335);
     width: 100%;
+    min-height: 180px;
+    justify-content: center;
 }
 
 /* Posicionamento e ajuste da foto do usuário no container */
-main .usrcontainer img{
+main .prestadores img {
     max-height: 105px;
     justify-content: right;
-}
-
-main .usrcontainer .imgbkg{
-    flex: 1;
-    background-color: transparent;
     align-self: center;
 }
 
-/* Posicionamento e ajuste de parágrafo dentro do container */
-main .usrcontainer p{
+main .prestadores .prestadoresdscr {
+    background-color: rgba(6, 6, 92, 0.335);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: inherit;
+    border-radius: 15px;
+}
+
+main .prestadores .prestadoresdscr p {
     color: black;
     align-content: center;
-    padding-left: 20px;
-    min-height: 130px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-main .usrcontainer .usrdscr{
-    width: 90%;
-}
-
-main .usrcontainer .cardpreco{
-
-}
-
-
-/* Posicionamento e ajuste de preço do serviço dentro do container */
-main .usrcontainer .price{
-    font-size: xx-large;
-    max-width: 120px;
-    text-align: left;
-    padding-right: 40px;
-}
-
-/* Notas adicionais relacionadas ao pagamento, ex: texto "preço médio" */
-main .usrcontainer .pricenote{
-    text-align:left;
-    align-content: end;
-    padding-bottom: 10px;
+main .prestadores .prestadoresdscr .cardpreco {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
 }
 
 /* Posicionamento e ajuste das estrelas de avaliação do usuário */
-main .usrcontainer .fourstars{
-    justify-self: center;
-    align-self: start;
-    padding: 30px;
+main .prestadores .prestadoresdscr .cardpreco .stars img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* Posicionamento e ajuste de preço do serviço dentro do container */
+main .prestadores .prestadoresdscr .cardpreco .price {
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-right: 10px;
+}
+
+/* Notas adicionais relacionadas ao pagamento, ex: texto "preço médio" */
+main .prestadores .prestadoresdscr .cardpreco .pricenote {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 /* Posicionamento e ajustes do rodapé da página */
-footer{
+footer {
     grid-area: footer;
     display: flex;
     background-color: rgba(176, 176, 180, 0.335);
@@ -207,7 +214,7 @@ footer{
 }
 
 /* Ajuste das imagens utilizadas no rodapé */
-footer p img{
+footer p img {
     padding: 10px;
     max-height: 35px;
 }
