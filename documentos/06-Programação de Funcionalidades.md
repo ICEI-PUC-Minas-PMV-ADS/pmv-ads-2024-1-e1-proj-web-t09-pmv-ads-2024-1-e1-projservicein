@@ -114,7 +114,7 @@ O usuário deve fazer o login através do seus respectivos e-mail e senha. As es
 
 Exemplo da tela de Cadastro:
 
-![Print tela de cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/login.png)
+![Print tela de cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Tela-cadastro.png)
 
 #### Requisito atendido
 
