@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Prestador</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <header>
+    <a href="../homePage/index.html">
+        <img src="imgs/logo.png" alt="Logo ServiceIn">
+    </a>
+</header>
+     <!-- Forumulário prestador -->
+
+     <!-- Forumulário prestador -->
+<!--<div class="container">
+        <h2>cadastro dos trabalhadores</h2>
+        <button onclick="MostrarOpções()"> Escolher categoria</button>
+    </div>-->
+
+    <div class="descricao">
+        <label for="descricao">Descrição: </label>
+        <textarea name="descricao" form="servprestado"
+            placeholder="Descreva informações e detalhes sobre o serviço prestado"></textarea>
+    </div>
+    
+     
+     <label for="serviço">Serviço: </label>
+       <select name="serviço">
+        <option value="">Selecione uma Opção</option>
+        <option value="marido">Marido de Aluguel</option>
+        <option value="domestica">Diarista</option>
+        <option value="bombeiro">Bombeiro Hidraulico</option>
+        <option value="eletricista">Eletricista</option>
+       </select>
+
+
+       <div class="valor">
+        <label for="valor">Valor médio por hora: R$</label>
+        <input type="text" id="valor" name="valor">
+    </div>
+
+   <div class="botao">
+    <button type="submit" form="servprestado" value="Submit">Finalizar</button>
+</div>
+<a href="cadastro.html">voltar</a>
+
+       <footer>
+        <p><img src="imgs/instagram.png" alt="instagram">
+            <img src="imgs/twitter.png" alt="twitter">
+            <img src="imgs/facebook.png" alt="Facebook"><br>
+            ©2024 , ServiceIn Serviços de Internet. Belo Horizonte - PucMinas
+        </p>
+       
+    </footer>
+</body>
+</html>

@@ -4,6 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color:#6f5097;
     display: grid;
+    min-height: 100vh;
     grid-template-areas: "header"
         "main"
         "footer";
@@ -16,15 +17,10 @@ header{
     background: rgba(176, 176, 180, 0.335);
     display: flex;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
     align-items: center;
-}
-p {
-    font-size: x-large;
-    display:inline;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    max-height: 45px;
 }
 
 header img{
@@ -38,138 +34,77 @@ header .hdrbuttons{
 }
 
 /* Definições do conteúdo principal da página */
-main{
-    min-height: 100vh;  
-}
 
 form {
-    grid-area: main;
-    margin: 0 auto;
-    width: 70%;
+    margin: 10px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 form p{
     font-weight: bold;
-    width: 100%;
+    width: 70%;
 }
 
 form div{
-    display:inline-block;
+    display: flex;
     flex-wrap: nowrap;
     width: 100%;
     padding: 3px;
     box-sizing: border-box;
-    font-size:xx-large;
-    margin: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    
 }
 
 form div input, form div textarea{
-    width: 80%;
+    width: 100%;
     border-radius: 3px;
     background-color: rgba(210, 210, 213, 0.335);
     border-color: rgba(0, 0, 0, 0.5);
     border: 1px solid;
-   padding-top: 20px;
-   font-size: medium;
-
-}
-
-form div label{
-    text-wrap: nowrap;
-    text-align: center;
-}
-
-form .nome{
-    width: 100%;
-    inset-block: 0;
-    height: 80px;
-    margin-left: auto;
-    
-}
-
-form .cpf{
-    width: 40%;
-     
-}
-
-form .registro{
-    width: 40%;
-    margin-left: 100px;
-    
-}
-
-form .email{
-    width: 50%;
-   
-}
-
-form .senha{
-    width: 40%;
-}
-
-form .rua{
-    width: 50%;
-}
-
-form .numero{
-    width: 10%;
-}
-
-form .complemento {
-    width: 50%;
-}
-
-form .bairro{
-    width: 40%;
-}
-
-form .cidade{
-    width: 50%;
-}
-
-form .estado{
-    width: 13%;
 }
 
 .prestador{
     font-weight: bold;
     padding: 20px;
     width: 70%;
-    
-   
+    margin: 0 auto;
+    font-size: x-large;
+    display: block;
 }
 
 .servprestado{
     width: 50%;
-    height: 30px;;
+    display: block;
+    margin-left: 20%;
+
 }
 
 .descricao{
-    width: 100%;
-    height: 100px;
-
+    width: 50%;
+    display:inline-block;
+    margin-left: 20%;
+    
 }
 
 .descricao textarea{
-    height: 100px;
-
+    height: 100%;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    
 }
 
 form .valor{
-    width: 50%;
+    width: 10%;
+    margin-top: 10%;
+    margin-left: 20%;
+    display:inline-block;
+    
 }
 
 .botao{
     display: flex;
     width: 100%;
     justify-content: end;
-    
 }
 
 .botao button{
@@ -177,11 +112,17 @@ form .valor{
     color: white;
     border: 0;
     border-radius: 3px;
-    padding: 5px;
-    text-align: left;
+    padding: 15px;
 
 }
+a {
+    background-color: #6f5097;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 15px;
 
+}
 footer{
     grid-area: footer;
     display: flex;
@@ -189,42 +130,8 @@ footer{
     justify-content: center;
     text-align: center;
     width: 100%;
-    justify-self: flex-end;
-    padding: 0;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 10px;
-    cursor: pointter 10%;
-
-
-}
-
-#msgError {
-    text-align: center;
-    color: #ff0000;
-    background-color: #ffbbbb;
-    padding: 10px;
-    border-radius: 4px;
-    display: none;
-}
-
-#msgSucces {
-    text-align: center;
-    color: #00bb00;
-    background-color: #bbffbe;
-    padding: 10px;
-    border-radius: 4px;
-    display: none;
+    height: 150px;
+    margin-top: auto;
 }
 
 /* Ajuste das imagens utilizadas no rodapé */
