@@ -1,9 +1,7 @@
-console.log("Loa")
-
 let listaPrestadores = [];
 
 function addUsuario(nomeusr, distancia, prestServ, servsPrestados) {
-    listaUsuarios = retornaListaUsrs();
+    listaUsuarios = retornaListaUsers();
     let usuario = {
         nome: nomeusr,
         distancia: distancia,
@@ -29,17 +27,15 @@ function limpaLocalStorage() {
     localStorage.arrUsuarios = JSON.stringify(listaUsuarios);
 }
 
-function retornaListaUsrs() {
+function retornaListaUsers() {
     let listaUsuarios = [];
-    if (localStorage.arrUsuarios) {
-        listaUsuarios = JSON.parse(localStorage.getItem("arrUsuarios")) || []
-    }
+    listaUsuarios = JSON.parse(localStorage.getItem("arrUsuarios")) || []
     return listaUsuarios;
 }
 
 function retornaPrestadores() {
     listaPrestadores = [];
-    listaUsuarios = retornaListaUsrs();
+    listaUsuarios = retornaListaUsers();
 
     listaUsuarios.map((usuario) => {
         if (usuario.prestadorServico) {

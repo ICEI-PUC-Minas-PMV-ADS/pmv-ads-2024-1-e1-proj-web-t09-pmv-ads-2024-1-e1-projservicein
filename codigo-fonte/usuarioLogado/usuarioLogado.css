@@ -62,9 +62,8 @@ main {
     padding-top: 10px;
 }
 
-/* Posicionamento e ajuste do campo de pesquisa */
 main .search {
-    grid-area: search;
+    grid-area: main;
     /* Atribuição do flex layout para o campo de pesquisa */
     display: flex;
     max-height: 43px;
@@ -76,10 +75,6 @@ main .search {
 main .search .searchbar {
     width: 100%;
     margin: 0 auto;
-}
-
-/* Personalização do campo de pesquisa */
-input[name="busca"] {
     width: 100%;
     padding: 12px 0;
     border-radius: 5px;
@@ -95,7 +90,7 @@ input[name="busca"] {
 }
 
 /* Personalização do campo de pesquisa quando está em foco (quando o campo é clicado) */
-input[type="text"]:focus {
+main .search .searchbar:focus {
     outline: none;
     border: solid #6f5097 2px;
     background-color: rgba(176, 176, 180, 0.25);
