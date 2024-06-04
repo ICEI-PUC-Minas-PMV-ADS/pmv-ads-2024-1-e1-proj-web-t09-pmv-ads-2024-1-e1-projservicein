@@ -1,3 +1,4 @@
+// Itens que vão aparecer em "Mais Buscados"
 const items = [
     { nome: 'Marido de Aluguel', imagem: 'img/maridodealuguel.png' },
     { nome: 'Frete', imagem: 'img/entregador.png' },
@@ -43,45 +44,4 @@ function buscar(event) {
 
 document.getElementById('digitbusca').addEventListener('input', buscar);
 
-// Renderiza os itens iniciais
 renderItems(items);
-
-/*const items = [
-    { nome: 'Marido de Aluguel', imagem: 'img/maridodealuguel.png' },
-    { nome: 'Frete', imagem: 'img/entregador.png' },
-    { nome: 'Faxina', imagem: 'img/faxina.png' },
-    { nome: 'Encanador', imagem: 'img/encanador.png' }
-];
-
-
-function buscar(event) {
-    event.preventDefault();
-
-    const searchTerm = document.getElementById('digitbusca').value.toLowerCase();
-    const maisBuscadosContainer = document.getElementById('maisbuscados');
-    const itemsDivs = maisBuscadosContainer.getElementsByClassName('result-item');
-
-
-    if (searchTerm === '') {
-        for (let i = 0; i < itemsDivs.length; i++) {
-            itemsDivs[i].style.display = 'block';
-        }
-        return;
-    }
-
-    
-
-    const resultados = items.filter(item => item.nome.toLowerCase().includes(searchTerm));
-    searchTerm.addEventListener('input', ()=>{
-        
-    for (let i = 0; i < itemsDivs.length; i++) {
-        const itemNome = itemsDivs[i].getAttribute('data-nome').toLowerCase();
-        if (resultados.some(result => result.nome.toLowerCase() === itemNome)) {
-            itemsDivs[i].style.display = 'block';
-        } else {
-            itemsDivs[i].style.display = 'none';
-        }
-    }
-    })
-}
-*/
