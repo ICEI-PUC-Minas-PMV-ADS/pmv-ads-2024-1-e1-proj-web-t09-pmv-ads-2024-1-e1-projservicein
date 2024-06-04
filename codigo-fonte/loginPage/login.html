@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script defer type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" href="style_login.css">
     <title>ServiceIn</title>
 </head>
@@ -20,7 +21,7 @@
                 <input type="email" id="email" name="email" placeholder="E-mail" required>
                 <input type="password" id="senha" name="senha" placeholder="Senha" required>
                 <p>Ainda não tem uma conta? <a href="../telaCadastro/cadastro.html">Crie uma</a></p>
-                <button type="submit">Entrar</button>
+                <input type="submit" onclick="logar()">
             </form>
     </main>
 
