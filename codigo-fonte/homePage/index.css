@@ -2,12 +2,38 @@
 
 /*cabeçalho */
 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6f5097;
+    /* Áreas de grid utilizadas para posicionar o conteúdo principal (7 linhas, 1 coluna) */    
+    display: flex;
+    flex-direction: column;
+    /* Necessário para que o rodapé sempre fique no final da págia */
+    min-height: 100vh;
+    grid-template-areas:"header" 
+    "texto"
+    "busca"
+    "titmaisbuscados"
+    "maisbuscados"
+    "rodape";
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color:rgba(176, 176, 180, 0.335);
     padding: 1px 10px;
     display: grid;
-    grid-template-columns: 1fr 30fr 1fr 1fr;
+    grid-template-columns: 1fr ;
     grid-template-areas: "logo . btnlogin btncadastro";
+    align-items: center;
+    grid-area: header;
 }
 
 header .logo{
@@ -19,6 +45,7 @@ header .logo{
 
 
 header .btnlogin {
+    display: inline-block;
     grid-area: btnlogin;
     color:#6f5097;
     border-radius: 10px;
@@ -34,11 +61,13 @@ header .btnlogin {
     background-position: 94%;
     background-size: 15px;
     background-repeat: no-repeat;
+    
 
 }
 
 header .btncadastro {
     grid-area: btncadastro;
+    display: inline-block;
     color:#6f5097;
     border-radius: 10px;
     height: 25px;
@@ -50,17 +79,6 @@ header .btncadastro {
     padding-bottom: 30px;
     border: solid #6f5097;
     text-align: left;
-}
-
-/* meio da página */
-main{
-display: grid;
-grid-template-areas: "texto"
-"busca"
-"titmaisbuscados"
-"maisbuscados"
-"rodape";
-
 }
 .texto {
     padding: 30px;
@@ -157,24 +175,45 @@ grid-template-areas: "texto"
 
 }
 
-#maisbuscados img {
+.result-item {
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+    width: 400px; /* largura fixa para cada item */
+    color: rgb(111, 80, 151);
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin: 30px 10px 30px;
+    grid-area: maisbuscados;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.result-item img {
     width: 300px;
     display: block;
     margin: 0 auto;
     border-radius: 10px;
-
 }
+
     
 /* rodapé */
 
-footer {
+footer{
     grid-area: rodape;
     display: flex;
     background-color: rgba(176, 176, 180, 0.335);
+    color: #6f5097;
     justify-content: center;
     text-align: center;
-    height: 150px;
     width: 100%;
+    height: 150px;
+    margin-top: auto;
 }
 
 footer p img{
