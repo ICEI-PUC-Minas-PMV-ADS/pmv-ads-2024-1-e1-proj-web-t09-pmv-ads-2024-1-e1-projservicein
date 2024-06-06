@@ -1,4 +1,3 @@
-// Itens que vão aparecer em "Mais Buscados"
 const items = [
     { nome: 'Marido de Aluguel', imagem: 'img/maridodealuguel.png' },
     { nome: 'Frete', imagem: 'img/entregador.png' },
@@ -19,14 +18,12 @@ function renderItems(items) {
             <img src="${item.imagem}" alt="${item.nome}" />
             <span>${item.nome}</span>
         `;
-        div.addEventListener('click', redirectToUsrLogado);
+        div.addEventListener('click', function () {
+            localStorage.termPesq = JSON.stringify(item.nome)
+            window.location.href = '../prestadores/prestadores.html';
+        });
         container.appendChild(div);
     });
-}
-
-function redirectToUsrLogado(event) {
-    
-    window.location.href = '../loginPage/login.html';
 }
 
 function buscar(event) {
