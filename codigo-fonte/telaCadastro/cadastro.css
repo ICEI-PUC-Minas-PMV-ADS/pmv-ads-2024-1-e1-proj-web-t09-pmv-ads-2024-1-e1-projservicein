@@ -19,12 +19,13 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 p {
     font-size: x-large;
-    display:inline;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    display:block;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 header img{
@@ -60,7 +61,6 @@ form div{
     display:inline-block;
     flex-wrap: nowrap;
     width: 100%;
-    padding: 3px;
     box-sizing: border-box;
     font-size:xx-large;
     margin: 0%;
@@ -99,7 +99,7 @@ form .cpf{
 }
 
 form .registro{
-    width: 40%;
+    width: 35%;
     margin-left: 100px;
     
 }
@@ -108,12 +108,11 @@ form .email{
     width: 50%;
    
 }
-
-form .senha{
-    width: 40%;
+form .telefone{
+    width: 20%
 }
 
-form .rua{
+form .endereço{
     width: 50%;
 }
 
@@ -122,11 +121,12 @@ form .numero{
 }
 
 form .complemento {
-    width: 50%;
+    width: 20%;
+
 }
 
 form .bairro{
-    width: 40%;
+    width: 50%;
 }
 
 form .cidade{
@@ -134,13 +134,23 @@ form .cidade{
 }
 
 form .estado{
-    width: 13%;
+    width: 23%;
+
+}
+
+form .senha{
+    width: 50%;
+}
+
+form .confirmar{
+    width: 40%;
+
 }
 
 .prestador{
     font-weight: bold;
-    padding: 20px;
-    width: 70%;
+    padding: 0;
+    width: 120%;
     
    
 }
@@ -151,7 +161,7 @@ form .estado{
 }
 
 .descricao{
-    width: 100%;
+    width: 50%;
     height: 100px;
 
 }
@@ -162,12 +172,16 @@ form .estado{
 }
 
 form .valor{
-    width: 50%;
+
+    margin-top: 10%;
+    margin-left: 0%;
+    display:inline;
+    text-align: right;
 }
 
 .botao{
-    display: flex;
-    width: 100%;
+    display:center;
+    width: 10%;
     justify-content: end;
     
 }
@@ -177,7 +191,8 @@ form .valor{
     color: white;
     border: 0;
     border-radius: 3px;
-    padding: 5px;
+    padding: 15px;
+    margin-bottom: 3%;
     text-align: left;
 
 }
@@ -208,28 +223,10 @@ button {
 
 
 }
-
-#msgError {
-    text-align: center;
-    color: #ff0000;
-    background-color: #ffbbbb;
-    padding: 10px;
-    border-radius: 4px;
-    display: none;
-}
-
-#msgSucces {
-    text-align: center;
-    color: #00bb00;
-    background-color: #bbffbe;
-    padding: 10px;
-    border-radius: 4px;
-    display: none;
-}
-
+   
 /* Ajuste das imagens utilizadas no rodapé */
 footer p img{
-    padding: 10px;
+    padding: 0px;
     max-height: 35px;
 }
 
