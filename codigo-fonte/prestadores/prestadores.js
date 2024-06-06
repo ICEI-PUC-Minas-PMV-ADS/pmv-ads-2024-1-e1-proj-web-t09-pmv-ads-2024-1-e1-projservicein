@@ -2,8 +2,8 @@ let termPesq = JSON.parse(localStorage.getItem("termPesq"));
 
 searchButton.onclick = function () {
     localStorage.termPesq = JSON.stringify(searchBar.value);
-    if (!window.location.href.endsWith('usuarioLogado.html')) {
-        window.location.href = ('../usuarioLogado/usuarioLogado.html');
+    if (!window.location.href.endsWith('prestadores.html')) {
+        window.location.href = ('../prestadores/prestadores.html');
     }
     termPesq = JSON.parse(localStorage.getItem("termPesq"));
     imprimePrestadores(termPesq);
@@ -70,8 +70,7 @@ function imprimePrestadores(termPesq = "") {
                 }
             })
             for (servico of prestador.servicosPrestados){
-                dadosServico = Object.values(servico).map(dado => dado.toString());;
-                dadosServico.splice();
+                dadosServico = Object.values(servico).map(dado => dado.toString());
                 dadosServico.map((dado) => {
                     if (dado.includes(termPesq)){
                         listaPesquisada.push(prestador);
