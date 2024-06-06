@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="cadastro.css">
+    <header>
+        <a href="../homePage/index.html">
+            <img src="imgs/logo.png" alt="Logo ServiceIn"></a>
+          </header>
+    <main>
+        <p>Dados Pessoais</p>
+     <form onsubmit="return false"  name="formulario">
+        <div class="cadastrar">
+    
+                 <div class="nome">
+                    <label>Nome Completo :</label><br/>
+                    <input type="text" name="nome" id="nome"  minlength="4" required placeholder="Digite seu nome"><br/>
+                 </div>   
+                 
+                 <div class="cpf">
+                    <label>CPF : </label><br>
+                    <input type="text" name="cpf" id="cpf" minlength="4" required placeholder="Digite seu cpf"><br/>
+                </div>
+    
+                <div class="registro">
+                    <label>RG : </label><br>
+                    <input type="text" name="rg" id="rg" minlength="4" required placeholder="Digite seu registro"><br/>
+
+                </div>
+
+                 <div class="email">
+                     <label>Email :</label><br/>
+                     <input type="email" name = "email" id="email" required placeholder="Digite seu email"></br>
+                 </div>
+                 <div class="telefone">
+                     <label>Telefone :</label><br/>
+                     <input type="tel" minlength="11" name="telefone" id="telefone"  required placeholder="(99)99999-9999"></br>
+                 </div>
+
+                 <div class="endereço">
+                     <label>Endereço :</label><br/>
+                     <input type="text" name="endereco" id="endereco" minlength="10" required placeholder="Endereço completo"></br>
+                 </div>
+
+    
+                <div class="numero">
+                    <label>Nº :</label>
+                    <input type="text" name="numero" id="numero"  minlength="4" required placeholder=" numero"><br/>     
+                  </div>
+    
+                <div class="complemento">
+                    <label>Complemento :</label>
+                    <input type="text" name="complemento" id="complemento"  minlength="4" required placeholder="Digite o complemento"><br/>
+               </div>
+    
+                <div class="bairro">
+                    <label>Bairro :</label>
+                    <input type="text" name="bairro" id="bairro" minlength="4" required placeholder="Digite o bairro"><br/>
+                </div>
+    
+                <div class="cidade">
+                    <label>Cidade :</label>
+                    <input type="text" name="cidade" id="cidade" minlength="4" required placeholder="Digite a cidade"><br/>
+                </div>
+    
+                <div class="estado">
+                    <label>Estado :</label>
+                    <input type="text" name="estado" id="estado" minlength="4" required placeholder="Digite o estado"><br/>
+                </div>
+
+                 <div class="senha">
+                     <label>Senha :</label><br/>
+                     <input type="password" name="Senha" id="Senha" minlength="6"  required placeholder="Crie uma senha"></br>
+  
+                 </div>
+                 <div class="confirmar">
+                     <label>Confirmar de senha :</label><br/>
+                     <input type="password" name="ConfirmeSenha"  id = "ConfirmeSenha"  minlength="6" required  placeholder="Confirme sua senha"></br>
+                 </div><br>
+                 <p>
+                     Campos obrigatórios(*)
+                 </p>
+             </div>
+             <div>
+                <div class="prestador">
+                    <label for="prestador">Prestador de Serviço: </label>
+                    <input type="checkbox" name="prestador" id="prestador">
+                </div>
+            
+                <!-- Forumulário prestador -->
+            
+                
+                <div class="servprestado">
+                        <label for="servprestado">Serviço Prestado*: </label>
+                        <input list="listaservprestados" type="text" name="listaservprestado" id="listaservprestado" required>
+                        <datalist id="listaservprestados">
+                            <option value="ENCANADOR">
+                            <option value="ELETRICISTA">
+                            <option value="DIARISTA">
+                            <option value="BOMBEIRO HIDRAULICO">
+                        </datalist>
+                    </div>
+                    <div class="descricao">
+                        <label for="descricao">Descrição: </label>
+                        <textarea name="descricao" form="servprestado"
+                            placeholder="Descreva informações e detalhes sobre o serviço prestado"></textarea>
+                    </div><br>
+                    <div class="valor">
+                        <label for="valor">Valor por hora: R$</label>
+                        <input type="text" id="valor" name="valor">
+                    </div>
+            
+                    <div class="botao">
+                   
+                <button onclick=" return cadastrar()" class="cad-button" id="botao" >Cadastrar</button>
+             </div>
+        </div>
+    </form>
+
+
+</main>
+</form>
+        <footer class="rodape">
+            <p><img src="imgs/instagram.png" alt="instagram">
+                <img src="imgs/twitter.png" alt="twitter">
+                <img src="imgs/facebook.png" alt="Facebook"><br>
+                ©2024 , ServiceIn Serviços de Internet. Belo Horizonte - PucMinas
+            </p>
+
+            <script src="mobile-navbar.js"></script>
+            <script src="telacadastro.js"></script>
+            
+        </footer>
+   
+
+    
+</head>
+<body>
+
+</html>
