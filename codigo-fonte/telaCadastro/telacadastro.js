@@ -89,5 +89,5 @@ function cadastrar() {
     localStorage.setItem("listaUser", JSON.stringify(listaUser))
   
     alert("Usuário cadastrado com sucesso!");
-    window.location.href = "../pagina-login/login.html"
+    window.location.href = "../prestadores/prestadores.html"
   }
