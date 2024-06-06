@@ -2,7 +2,15 @@
 
 [Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
+Os testes funcionais a serem realizados na aplicação são descritos a seguir.
+
+|Caso de Teste    | CT-01 - Verificar funcionamento de links e filtros por pesquisa na Homepage |
+|:---|:---|
+| Requisitos Associados | RF-01 A aplicação deve permitir ao usuário cadastrar uma conta. RF-02 A aplicação deve permitir ao usuário fazer login na sua conta. RF-03	A aplicação deve oferecer uma funcionalidade de pesquisa para permitir ao usuário Contratante localizar a categoria de serviço ou prestador de serviço que deseja.|
+| Objetivo do Teste | Verificar se os botões da Homepage estão direcionando para as respectivas páginas corretamente, e se a barra de pesquisa está filtrando pelos serviços digitados.  |
+| Passos |1 - Acessar o navegador. 2 - Informar o endereço do site. 3 - Visualizar a página Home. 4 - Buscar por algum serviço na barra de busca. 5 - Clicar nos links da página Home.
+| Critérios de êxito | Todos os links da Homepage devem encaminhar os usuários para as páginas descritas e ao digitar o serviço na barra de busca a página deve ocultar as demais opções.  |
+| Responsável pela elaborar do caso de Teste | Aline |
 
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
