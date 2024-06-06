@@ -3,7 +3,9 @@ const items = [
     { nome: 'Marido de Aluguel', imagem: 'img/maridodealuguel.png' },
     { nome: 'Frete', imagem: 'img/entregador.png' },
     { nome: 'Faxina', imagem: 'img/faxina.png' },
-    { nome: 'Encanador', imagem: 'img/encanador.png' }
+    { nome: 'Encanador', imagem: 'img/encanador.png' },
+    { nome: 'Baba', imagem: 'img/baba.png' },
+    { nome: 'Entregas', imagem: 'img/imagebanner3.png' }
 ];
 
 function renderItems(items) {
@@ -17,8 +19,14 @@ function renderItems(items) {
             <img src="${item.imagem}" alt="${item.nome}" />
             <span>${item.nome}</span>
         `;
+        div.addEventListener('click', redirectToUsrLogado);
         container.appendChild(div);
     });
+}
+
+function redirectToUsrLogado(event) {
+    
+    window.location.href = '../loginPage/login.html';
 }
 
 function buscar(event) {
