@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <title>ServiceIn</title>
+    <link rel="stylesheet" href="css/style_chat.css">
+    <link rel="stylesheet" href="css/chatBox.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="scripts/chat.js"></script>
+    <script defer src="scripts/responsesChat.js"></script>
+    <script defer src="scripts/avaliacao.js"></script>
+
+
+</head>
+
+<body>
+    <!--CABEÇALHO-->
+    <header>
+        <a href="../usuarioLogado/usrlogado.html"><img src="img/logo.png" alt="Logo Service In"></a>
+        <div class="hdrbuttons">
+            <img src="img/userround.png" alt="Foto de usuário redonda">
+            <button type="submit" class="logoffbtn">Logout</button>
+        </div>
+    </header>
+    <main>
+        <div class="search">
+            <div class="searchbar">
+                <input type="text" name="busca" id="searchbar" placeholder="Digite sua pesquisa" required>
+            </div>
+            <button type="button">Buscar</button>
+        </div>
+
+        <!--Container de Informações do prestador-->
+        <div class="usrcontainer">
+            <img src="img/userround.png" alt="Foto usuário redondo">
+            <p class="usrdscr">José da Silva, <strong>Encanador</strong> <img src="img/map-pin.png" alt="Map pin"> 5Km
+                <br><br>Presto serviço de encanador para pequenos reparos, conserto de vazamentos, troca de torneira, chuveiros, etc.
+                Não realizo serviços onde será necessário quebrar paredes.</p>
+            <p class="price">R$200,00 / hora</p>
+            <p class="pricenote">(preço médio)</p>
+            <img class="fourstars" src="img/4stars.png" alt="4 Estreas">
+        </div>
+      
+    <!-- Caixa de avaliação -->
+    <div class="avaliacao">
+        <h2>Avaliação</h2>
+        <form id="form-avaliacao">
+            <input type="hidden" id="prestador" value="José da Silva">
+            <label for="nota">Nota:</label>
+            <input type="range" id="nota" name="nota" min="1" max="5" value="3">
+            <output id="output-nota">Regular</output>
+            <br>
+            <hr>
+            <br>
+            <label for="comentario">Comentário (Informe o prestador ou cliente que deseja avaliar):</label>
+            <textarea id="comentario" name="comentario" placeholder="Deixe seu comentário"></textarea>
+            <br>
+            <button type="submit">Enviar Avaliação</button>
+            <button id="nova-avaliacao-btn">Nova Avaliação</button>
+        </form>
+    </div>
+    
+    </main>
+
+    <!--CHAT BOX-->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Fale conosco
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Digite uma mensagem">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                    onclick="heartButton()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="fixarRodape">
+        <p><img src="img/instagram.png" alt="instagram">
+        <img src="img/twitter.png" alt="twitter">
+        <img src="img/facebook.png" alt="Facebook"><br>
+        ©2024 , ServiceIn Serviços de Internet. Belo Horizonte - PucMinas</p>
+    </footer>
+
+</body>
+
+</html>
