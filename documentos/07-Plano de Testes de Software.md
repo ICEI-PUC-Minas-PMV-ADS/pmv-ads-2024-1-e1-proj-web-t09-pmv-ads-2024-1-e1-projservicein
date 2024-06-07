@@ -12,6 +12,19 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Critérios de êxito | Todos os links da Homepage devem encaminhar os usuários para as páginas descritas e ao digitar o serviço na barra de busca a página deve ocultar as demais opções.  |
 | Responsável pela elaborar do caso de Teste | Aline |
 
+
+|Caso de Teste    | CT-02 - Verificar o login de usuários |
+|:---|:---| 
+| Requisitos associados | RF-02 A aplicação deve permitir ao usuário fazer login na sua conta.|
+| Objetivo do Teste | Verificar se o login stá sendo feito corretamente. |
+| Passos |1 - Acessar o navegador.  2 - Informar o endereço do site. 3 - Visualizar a HomePage. 4 - Clicar em "Login", no canto superior direito. 5 - Preencher os dados necessários e clicar em enviar. |
+| Critérios de êxito | Após o login, o usuário deverá ser redirecionado para a tela de usuário logado. |
+|Responsável pela elaboração do caso de Teste | Nome do integrante da equipe |
+
+
+
+
+
 |Caso de Teste    | CT-X - Título Caso de Teste |
 |:---|:---|
 | Requisitos Associados | RF-X |
@@ -19,6 +32,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Passos | Indicar passos para a execução do teste |
 | Critérios de êxito | Indicar os critérios de êxito  |
 | Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
