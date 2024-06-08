@@ -74,9 +74,9 @@ function Usuário() {
     }
   
   
-    let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
+    let arrUsuarios = JSON.parse(localStorage.getItem('arrUsuarios') || '[]')
   
-    listaUser.push(
+    arrUsuarios.push(
       {
         nomeUser: nome.value,
         rgUser:cpf.value,
@@ -93,7 +93,7 @@ function Usuário() {
         ConfirmeSenhaUser: formulario.ConfirmeSenha.value
       });
   
-    localStorage.setItem("listaUser", JSON.stringify(listaUser))
+    localStorage.setItem("arrUsuarios", JSON.stringify(arrUsuarios))
   
     alert("Usuário cadastrado com sucesso!");
     window.location.href = "../prestadores/prestadores.html"
@@ -177,9 +177,9 @@ function Usuário() {
     }
   
   
-    let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
+    let arrUsuarios = JSON.parse(localStorage.getItem('arrUsuarios') || '[]')
   
-    listaUser.push(
+    arrUsuarios.push(
       {
         nomeUser: nome.value,
         rgUser:cpf.value,
@@ -196,7 +196,7 @@ function Usuário() {
         ConfirmeSenhaUser: formulario.ConfirmeSenha.value
       });
   
-    localStorage.setItem("listaUser", JSON.stringify(listaUser))
+    localStorage.setItem("arrUsuarios", JSON.stringify(arrUsuarios))
   
     alert("Continue o cadastro na Proxima tela");
     window.location.href = "../telacadastro/telaprestar.html"
