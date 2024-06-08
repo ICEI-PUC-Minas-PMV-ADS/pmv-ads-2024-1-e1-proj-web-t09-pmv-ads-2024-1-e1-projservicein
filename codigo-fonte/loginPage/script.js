@@ -19,7 +19,13 @@ async function logar(){
      let userValid = {};
      
 
-     listaUser = JSON.parse(localStorage.getItem("arrUsuarios"));
+    listaUser = JSON.parse(localStorage.getItem("arrUsuarios"));
+    
+    if (!listaUser){
+      alert('Sem usuários cadastrados');
+    }
+
+    console.log(listaUser);
     for (let i = 0; i < listaUser.length; i++){ 
       let item = listaUser[i];
       if(email === item.email){
