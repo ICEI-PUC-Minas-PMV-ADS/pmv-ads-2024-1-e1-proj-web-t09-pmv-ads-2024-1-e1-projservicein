@@ -1,4 +1,4 @@
-function cadastrar() { 
+function Usuário() { 
     if (nome.value == "" || nome.value.length < 4) {
       alert("Preencha o formulário corretamente!");
       nome.focus();
