@@ -25,13 +25,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 
 
-|Caso de Teste    | CT-X - Título Caso de Teste |
+|Caso de Teste    | CT-4- verificar funcionamento do cadastro do usuário .|
 |:---|:---|
-| Requisitos Associados | RF-X |
-| Objetivo do Teste | Descrição do objetivo do teste |
-| Passos | Indicar passos para a execução do teste |
-| Critérios de êxito | Indicar os critérios de êxito  |
-| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+| Requisitos Associados | RF-01 O site deve permitir ao usuário cadastrar uma conta. |
+| Objetivo do Teste | Verifique se o cadastro está sendo feito corretamente. |
+| Passos | 1- Acesse o navegador. 2- informar o endereço do site. 3- visualize a pagina home. 4- Clique em cadastre-se, no Menu. 5- preencha o formulario e clique em usuario se for apenas fazer o cadastro. 6- Se for cadastrar como prestador de serviço preencher a pagina e ir para proxima pagina. |
+| Critérios de êxito | Deve ocorrer uma validação das informações fornecidas pelo usuário e ao clicar em cadastrar deverá aparecer a mensagem usuario cadastrado com sucesso.  |
+| Responsável pela elaborar do caso de Teste | FABIANO|
 
  
 > **Links Úteis**:
