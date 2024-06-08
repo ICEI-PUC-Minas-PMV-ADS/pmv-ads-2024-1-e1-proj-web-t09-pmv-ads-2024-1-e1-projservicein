@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6f5097;
+    display: grid;
+    grid-template-areas: "header"
+        "main"
+        "footer";
+}
+header{
+    grid-area: header;
+    background: rgba(176, 176, 180, 0.335);
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+header img{
+    padding: 5px;
+    max-height: 35px;
+}
+
+.prestador{
+    font-weight: bold;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+form .valor{
+
+    margin-top: 20%;
+    margin-left: 0%;
+    display:inline-block;
+    text-align: right;
+    padding: 30px;
+}
+
+.botao{
+    display:center;
+    width: 10%;
+    justify-content: end;
+    
+}
+
+.botao button{
+    background-color: #6f5097;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 3%;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.servprestado{
+    width: 50%;
+    height: 30px;
+    margin-bottom: 4%;
+}
+
+.descricao{
+    width: 80%;
+    font-size: xx-large;
+    margin-top: 20px; 
+
+}
+
+.descricao textarea{
+    content: normal;
+    height: 200px;
+    margin-left: 110px;
+    display:inline-block;
+
+}
+
+ p img{
+    padding: 0px;
+    max-height: 35px;
+}
+.div img{
+    grid-area: footer;
+    display: flex;
+    background-color: rgba(176, 176, 180, 0.335);
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    justify-self: end;
+    padding: 0;
+}
+@media screen and (max-width: 1190px) {
+    form{
+        width: 100%;
+    }
+    
+}
+
+  @media screen and (max-width: 700px) {
+    form{
+        width: 100%;
+    }
+    
+    form div{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+footer{
+    grid-area: footer;
+    display: flex;
+    background-color: rgba(176, 176, 180, 0.335);
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    justify-self:end;
+}

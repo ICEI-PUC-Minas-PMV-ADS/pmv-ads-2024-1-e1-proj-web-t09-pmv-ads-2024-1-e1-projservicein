@@ -1,0 +1,249 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#6f5097;
+    display: grid;
+    grid-template-areas: "header"
+        "main"
+        "footer";
+}
+
+/* início da pag, cabeçalho */
+/* Definições do cabeçalho da página */
+header{
+    grid-area: header;
+    background: rgba(176, 176, 180, 0.335);
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+p {
+    font-size: x-large;
+    display:block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header img{
+    padding: 5px;
+    max-height: 35px;
+}
+
+header .hdrbuttons{
+    display: flex;
+    align-items: center;
+}
+
+/* Definições do conteúdo principal da página */
+main{
+    min-height: 100vh;  
+}
+
+form {
+    grid-area: main;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+
+}
+
+form p{
+    font-weight: bold;
+    width: 100%;
+}
+
+form div{
+    display:inline-block;
+    flex-wrap: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    font-size:xx-large;
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+form div input, form div textarea{
+    width: 80%;
+    border-radius: 3px;
+    background-color: rgba(210, 210, 213, 0.335);
+    border-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid;
+   padding-top: 20px;
+   font-size: medium;
+
+}
+
+form div{
+    display:inline-block;
+    flex-wrap: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    font-size:xx-large;
+    margin: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+form div input, form div textarea{
+    width: 80%;
+    border-radius: 3px;
+    background-color: rgba(210, 210, 213, 0.335);
+    border-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid;
+   padding-top: 10px;
+   font-size: medium;
+}
+
+form .nome{
+    width: 100%;
+    inset-block: 0;
+    height: 80px;
+    margin-left: auto;
+    
+}
+
+form .cpf{
+    width: 40%;
+     
+}
+
+form .registro{
+    width: 35%;
+    margin-left: 100px;
+    
+}
+
+form .email{
+    width: 50%;
+   
+}
+form .telefone{
+    width: 20%
+}
+
+form .endereço{
+    width: 50%;
+}
+
+form .numero{
+    width: 10%;
+}
+
+form .complemento {
+    width: 20%;
+
+}
+
+form .bairro{
+    width: 50%;
+}
+
+form .cidade{
+    width: 50%;
+}
+
+form .estado{
+    width: 23%;
+
+}
+
+form .senha{
+    width: 50%;
+}
+
+form .confirmar{
+    width: 40%;
+
+}
+
+.botao{
+    display:center;
+    width: 10%;
+    justify-content: end;
+    
+}
+
+.botao button{
+    background-color: #6f5097;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 3%;
+    display:block;
+
+}
+
+footer{
+    grid-area: footer;
+    display: flex;
+    background-color: rgba(176, 176, 180, 0.335);
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    justify-self: flex-end;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointter 10%;
+
+
+}
+   
+/* Ajuste das imagens utilizadas no rodapé */
+footer p img{
+    padding: 0px;
+    max-height: 35px;
+}
+
+@media screen and (max-width: 1190px) {
+    form{
+        width: 100%;
+    }
+    
+    .prestador{
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+  @media screen and (max-width: 700px) {
+    form{
+        width: 100%;
+    }
+    
+    form div{
+        flex-wrap: wrap;
+    }
+
+    .prestador{
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  }
+
+a {display: inline-block;}

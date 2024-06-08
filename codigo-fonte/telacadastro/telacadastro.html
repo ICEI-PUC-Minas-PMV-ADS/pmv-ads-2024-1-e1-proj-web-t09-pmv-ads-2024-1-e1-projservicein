@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="telacadastro.css">
+    <header>
+        <a href="../homePage/index.html">
+            <img src="imgs/logo.png" alt="Logo ServiceIn"></a>
+          </header>
+    <main>
+        <p>Dados Pessoais</p>
+     <form onsubmit="return false"  name="formulario">
+        <div class="cadastrar">
+    
+                 <div class="nome">
+                    <label>Nome Completo :</label><br/>
+                    <input type="text" name="nome" id="nome"  minlength="4" required placeholder="Digite seu nome"><br/>
+                 </div>   
+                 
+                 <div class="cpf">
+                    <label>CPF : </label><br>
+                    <input type="text" name="cpf" id="cpf" minlength="4" required placeholder="Digite seu cpf"><br/>
+                </div>
+    
+                <div class="registro">
+                    <label>RG : </label><br>
+                    <input type="text" name="rg" id="rg" minlength="4" required placeholder="Digite seu registro"><br/>
+
+                </div>
+
+                 <div class="email">
+                     <label>Email :</label><br/>
+                     <input type="email" name = "email" id="email" required placeholder="Digite seu email"></br>
+                 </div>
+                 <div class="telefone">
+                     <label>Telefone :</label><br/>
+                     <input type="tel" minlength="11" name="telefone" id="telefone"  required placeholder="(99)99999-9999"></br>
+                 </div>
+
+                 <div class="endereço">
+                     <label>Endereço :</label><br/>
+                     <input type="text" name="endereco" id="endereco" minlength="10" required placeholder="Endereço completo"></br>
+                 </div>
+
+    
+                <div class="numero">
+                    <label>Nº :</label>
+                    <input type="text" name="numero" id="numero"  minlength="4" required placeholder=" numero"><br/>     
+                  </div>
+    
+                <div class="complemento">
+                    <label>Complemento :</label>
+                    <input type="text" name="complemento" id="complemento"  minlength="4" required placeholder="Digite o complemento"><br/>
+               </div>
+    
+                <div class="bairro">
+                    <label>Bairro :</label>
+                    <input type="text" name="bairro" id="bairro" minlength="4" required placeholder="Digite o bairro"><br/>
+                </div>
+    
+                <div class="cidade">
+                    <label>Cidade :</label>
+                    <input type="text" name="cidade" id="cidade" minlength="4" required placeholder="Digite a cidade"><br/>
+                </div>
+    
+                <div class="estado">
+                    <label>Estado :</label>
+                    <input type="text" name="estado" id="estado" minlength="4" required placeholder="Digite o estado"><br/>
+                </div>
+
+                 <div class="senha">
+                     <label>Senha :</label><br/>
+                     <input type="password" name="Senha" id="Senha" minlength="6"  required placeholder="Crie uma senha"></br>
+  
+                 </div>
+                 <div class="confirmar">
+                     <label>Confirmar de senha :</label><br/>
+                     <input type="password" name="ConfirmeSenha"  id = "ConfirmeSenha"  minlength="6" required  placeholder="Confirme sua senha"></br>
+             </div>
+             <div>
+    <div class="botao">
+            <button onclick=" return cadastrar()" class="cad-button" id="botao" >Cadastrar</button>
+            <button id onclick=" return Prestador()" class="cad-button" id="botao" >Prestador</button>
+        
+        </div>
+</main>
+</form>
+        <footer class="rodape">
+            <p><img src="imgs/instagram.png" alt="instagram">
+                <img src="imgs/twitter.png" alt="twitter">
+                <img src="imgs/facebook.png" alt="Facebook"><br>
+                ©2024 , ServiceIn Serviços de Internet. Belo Horizonte - PucMinas
+            </p>
+
+            
+            <script src="telacadastro.js"></script>
+            
+        </footer>
+
+</head>
+<body>
+
+</html>
