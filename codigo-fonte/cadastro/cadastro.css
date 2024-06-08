@@ -1,0 +1,300 @@
+/* Definições do body da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6f5097;
+    display: grid;
+    /* Necessário para que o rodapé sempre fique no final da págia */
+    min-height: 100vh;
+    grid-template-areas: "header"
+        "main"
+        "footer";
+    justify-items: center;
+}
+
+/* Definições do cabeçalho da página */
+header {
+    grid-area: header;
+    background: rgba(176, 176, 180, 0.335);
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 45px;
+}
+
+header img {
+    padding: 5px;
+    max-height: 35px;
+}
+
+header .hdrbuttons {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Definições do conteúdo principal da página */
+main {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 185px);
+}
+
+main .formCadastro {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 900px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+main .formCadastro div {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    padding: 3px;
+    align-items: center;
+}
+
+main .formCadastro p {
+    width: 100%;
+    font-weight: bold;
+}
+
+main .formCadastro label {
+    text-wrap: nowrap;
+}
+
+main .formCadastro input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 1.5em;
+    padding-left: 7px;
+}
+
+main .formCadastro .nome {
+    width: 100%;
+}
+
+main .formCadastro .cpf {
+    width: 33%;
+}
+
+main .formCadastro .registro {
+    width: 33%;
+}
+
+main .formCadastro .telefone {
+    width: 34%;
+}
+
+main .formCadastro .cep {
+    width: 33%;
+}
+
+main .formCadastro .rua {
+    width: 67%;
+}
+
+main .formCadastro .numero {
+    width: 10%;
+}
+
+main .formCadastro .complemento {
+    width: 23%;
+}
+
+main .formCadastro .bairro {
+    width: 33%;
+}
+
+main .formCadastro .cidade {
+    width: 34%;
+}
+
+main .formCadastro .estado {
+    width: 100%;
+}
+
+main .formCadastro .estado input {
+    max-width: 60px;
+}
+
+main .formCadastro .email {
+    width: 50%;
+}
+
+main .formCadastro .senha {
+    width: 50%;
+}
+
+main .formCadastro .prestador {
+    width: 100%;
+}
+
+main .formCadastro .prestador input {
+    width: 20px;
+    box-shadow: 0 0 0 1px #ccc inset;
+    accent-color: #6f5097;
+}
+
+main .formCadastro .servicos{
+    flex-wrap: wrap;
+}
+
+main .formCadastro .servicos .servPrestados{
+    visibility: hidden;
+    height: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+main .formCadastro .servicos .servPrestados .nomeServPrestado {
+    width: 100%;
+}
+
+main .formCadastro .servicos .servPrestados .nomeServPrestado input[list="listaServPrestados"]::-webkit-calendar-picker-indicator {
+    opacity: 0.5;
+}
+
+main .formCadastro .servicos .servPrestados .descricao {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main .formCadastro .servicos .servPrestados .descricao label {
+    width: 100%;
+}
+
+main .formCadastro .servicos .servPrestados .descricao textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+main .formCadastro .servicos .servPrestados .valor{
+    width: 100%;
+}
+
+main .formCadastro .servicos .servPrestados .valor input{
+    max-width: 70px;
+}
+
+main .formCadastro .servicos .btnAddServ {
+    flex-wrap: wrap;
+    width: 100%;
+    visibility: hidden;
+}
+
+main .formCadastro .servicos .btnAddServ button{
+    background-color: #6f5097;
+    color: white;
+    font-size: x-large;
+    border-radius: 5px;
+    border: 0px;
+    padding: 0px;
+    min-width: 25px;
+    height: 0px;
+}
+
+main .formCadastro .textoPequeno {
+    font-size: small;
+}
+
+main .formCadastro .btnCadastrar {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+main .formCadastro .btnCadastrar button{
+    background-color: #6f5097;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    border: 0px;
+    padding: 7px;
+    min-width: 25px;
+}
+
+/* Posicionamento e ajustes do rodapé da página */
+footer {
+    grid-area: footer;
+    display: flex;
+    background-color: rgba(176, 176, 180, 0.335);
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    margin-top: auto;
+}
+
+/* Ajuste das imagens utilizadas no rodapé */
+footer p img {
+    padding: 10px;
+    max-height: 35px;
+}
+
+@media screen and (max-width: 785px) {
+    main .formCadastro .cpf {
+        width: 50%;
+    }
+
+    main .formCadastro .registro {
+        width: 50%;
+    }
+
+    main .formCadastro .telefone {
+        width: 50%;
+    }
+
+    main .formCadastro .cep {
+        width: 50%;
+    }
+
+    main .formCadastro .rua {
+        width: 75%;
+    }
+
+    main .formCadastro .numero {
+        width: 25%;
+    }
+
+    main .formCadastro .complemento {
+        width: 50%;
+    }
+
+    main .formCadastro .bairro {
+        width: 50%;
+    }
+
+    main .formCadastro .cidade {
+        width: 50%;
+    }
+    
+    main .formCadastro .estado {
+        width: 50%;
+    }
+
+    main .formCadastro .email {
+        width: 100%;
+    }
+
+    main .formCadastro .senha {
+        width: 100%;
+    }
+}
