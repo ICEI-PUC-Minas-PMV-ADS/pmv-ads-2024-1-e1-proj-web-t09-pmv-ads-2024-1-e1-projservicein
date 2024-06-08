@@ -36,12 +36,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 |Caso de Teste    | CT-05 - Verificar funcionamento do chat e realizar avaliação de um fornecedor |
 |:---|:---|
-| Requisitos Associados | RF-01 A aplicação deve permitir ao usuário cadastrar uma conta. RF-02 A aplicação deve permitir ao usuário fazer login na sua conta. RF-03	A aplicação deve oferecer uma funcionalidade de pesquisa para permitir ao usuário Contratante localizar a categoria de serviço ou prestador de serviço que deseja.|
-| Objetivo do Teste | Verificar se os botões da Homepage estão direcionando para as respectivas páginas corretamente, e se a barra de pesquisa está filtrando pelos serviços digitados.  |
-| Passos |1 - Acessar o navegador. 2 - Informar o endereço do site. 3 - Visualizar a página Home. 4 - Buscar por algum serviço na barra de busca. 5 - Clicar nos links da página Home.
-| Critérios de êxito | Todos os links da Homepage devem encaminhar os usuários para as páginas descritas e ao digitar o serviço na barra de busca a página deve ocultar as demais opções.  |
-| Responsável pela elaborar do caso de Teste | Aline |
+| Requisitos Associados | RF-05  A aplicação deve permitir ao usuário Prestador de Serviço disponibilizar informações dos serviços oferecidos como custos e contato. RF-06	A aplicação deve permitir ao usuário Contratante disponibilizar as informações de preferências de horário de atendimento. RF-07 A aplicação deve permitir ao usuário Contratante realizar avaliação ao usuário Prestador de Serviço mediante o serviço recebido e vice-versa.|
+| Objetivo do Teste | Verificar se o chat é aplicável e funcional para permitir a disponibilização de horários, custos e outras informações em relação ao serviço prestado, e também verificar se é ´possível realizar avaliações.  |
+| Passos |1 - Acessar o navegador. 2 - Informar o endereço do site. 3 - Visualizar a página chatPage. 4 - Digitar uma das opções no chatbox como por exemplo '1'. 5 - Clicar em 'Enviar' para obter mais informações. 6 - Na barra de avaliações avaliar um prestador de serviço ou um cliente. 7 - Clicar em 'Enviar'.
+| Critérios de êxito | Deve ser possível realizar o envio das mensagens no chatbox e receber um retorno de orientação.  |
+| Responsável pela elaborar do caso de Teste | Sara |
 
+ <hr> 
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
