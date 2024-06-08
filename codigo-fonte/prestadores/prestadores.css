@@ -9,10 +9,7 @@ body {
     /* Necessário para que o rodapé sempre fique no final da págia */
     min-height: 100vh;
     grid-template-areas: "header"
-        "search"
-        "label"
-        "banner"
-        "prestadores"
+        "main"
         "footer";
 }
 
@@ -59,8 +56,11 @@ header .logoffbtn {
 
 /* Definições do conteúdo principal da página */
 main {
+    grid-area: main;
     padding-top: 10px;
+    min-height: calc(100vh - 185px);
 }
+
 
 main .search {
     grid-area: main;
@@ -107,13 +107,11 @@ main .search button {
 
 /* Etiqueta de texto simples para mostrar o texto "Mais procurados" */
 main .label {
-    grid-area: label;
     padding-left: 10px;
 }
 
 /* Posicionamento e ajuste do banner "Mais procurados" */
 main .banner {
-    grid-area: banner;
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -133,7 +131,6 @@ main #cardPrestadores {
 
 /* Container para exibição das informações de usuário */
 main .prestadores {
-    grid-area: prestadores;
     display: flex;
     padding: 5px;
     box-sizing: border-box;

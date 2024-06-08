@@ -1,19 +1,19 @@
 /* Definições do body da página */
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color:#6f5097;
+    color: #6f5097;
     display: grid;
     /* Necessário para que o rodapé sempre fique no final da págia */
     min-height: 100vh;
     grid-template-areas: "header"
-    "main"
-    "footer";
+        "main"
+        "footer";
 }
 
 /* Definições do cabeçalho da página */
-header{
+header {
     grid-area: header;
     background: rgba(176, 176, 180, 0.335);
     display: flex;
@@ -24,14 +24,19 @@ header{
     max-height: 45px;
 }
 
-header img{
+header img {
     padding: 5px;
     max-height: 35px;
 }
 
-header .hdrbuttons{
+header .hdrbuttons {
     display: flex;
     align-items: center;
+}
+
+main {
+    grid-area: main;
+    min-height: calc(100vh - 185px);
 }
 
 
@@ -40,6 +45,7 @@ main .search {
     /* Atribuição do flex layout para o campo de pesquisa */
     display: flex;
     max-height: 43px;
+    padding-top: 15px;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -48,7 +54,6 @@ main .search {
 main .search .searchbar {
     width: 100%;
     margin: 0 auto;
-    width: 100%;
     padding: 12px 0;
     border-radius: 5px;
     background: rgba(176, 176, 180, 0.335);
@@ -80,7 +85,7 @@ main .search button {
 
 
 /* Posicionamento e ajustes do rodapé da página */
-footer{
+footer {
     grid-area: footer;
     display: flex;
     background-color: rgba(176, 176, 180, 0.335);
@@ -92,10 +97,7 @@ footer{
 }
 
 /* Ajuste das imagens utilizadas no rodapé */
-footer p img{
+footer p img {
     padding: 10px;
     max-height: 35px;
 }
-
-
-

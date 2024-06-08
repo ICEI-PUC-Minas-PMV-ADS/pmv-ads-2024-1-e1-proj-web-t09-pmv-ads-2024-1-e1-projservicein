@@ -23,10 +23,10 @@ function addUsuario(nomeusr, distancia, prestServ, servsPrestados) {
         distancia: distancia,
         prestadorServico: prestServ,
         servicosPrestados: servsPrestados || []
-    }
+    };
     listaUsuarios.push(usuario);
     localStorage.arrUsuarios = JSON.stringify(listaUsuarios);
-}
+};
 
 function templateUsers() {
     addUsuario("João Silveira", 12, true, [{ nomeServico: "Marido de Aluguel", avaliacao: 3, descricaoServico: "Pequenos serviços domésticos em geral, troca de chuveiro, torneira, tomada, lâmpadas, etc.", valor: 0 }]);
