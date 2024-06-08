@@ -18,16 +18,16 @@ function cadastrar() {
       return;
     }
     
-    let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
+    let arrUsuarios = JSON.parse(localStorage.getItem('arrUsuarios')) || '[]')
   
-    listaUser.push(
+    arrUsuarios.push(
       {
         servprestadoUser:servprestado.value,
         descricaoUser: descricao.value,
         valorUser: valor.value,
       });
   
-    localStorage.setItem("listaUser", JSON.stringify(listaUser))
+    localStorage.setItem("arrUsuarios", JSON.stringify(arrUsuarios))
   
     alert("Prestador cadastrado com sucesso!");
     window.location.href = "../prestadores/prestadores.html"
