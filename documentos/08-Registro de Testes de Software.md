@@ -2,13 +2,30 @@
 
 Relatório com as evidências dos testes de software realizados na aplicação pela equipe, baseado no plano de testes pré-definido.
 
-Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste executado]
+Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. 
+
 |Caso de Teste    | CT-01 - Verificar funcionamento dos links e filtros por pesquisa na Homepage |
 |:---|:---|
 | Resultados obtidos | Foi possível acessar a página normalmente. Foi feito o teste e não é ṕossível salvar o cadastro com campos obrigatórios não preenchidos. Foi verificado que não foram aplicadas máscaras e nem filtros específicos nos campos. Com as informações preenchidas o cadastro é realizado normalmente.|
 | Responsável pela execução do caso de Teste | Sara |
 
 <a href="https://www.youtube.com/watch?v=Yqltf2q88QM">Video teste.</a>
+
+<hr>
+
+|Caso de Teste    | 	CT-02 - Verificar o login de usuários |
+|:---|:---|
+| Resultados obtidos |Foi realizado com sucesso o teste colocando o login e senha .|
+| Responsável pela execução do caso de Teste | Fabiano |
+
+A página inicial sendo visualizada normalmente. 
+![Teste_prestadores_inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20132907.png)
+
+Apos login e senha a pagina sendo direcionada para tela de pesquisa.
+![Teste_prestadores_segunda](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20142722.png)
+
+Se o usuario não for cadastrado a pagina direciona ele para a tela de cadastro.
+![Teste_prestadores_terceira](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20143017.png)
 
 <hr>
 
@@ -62,17 +79,3 @@ Informações de valores/faixas de preço sendo visualizadas.
 ![Teste_prestadores_terceira](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Tela_prestadores_terceira.png) 
 
 
-
-
-|Caso de Teste    | CT-06 - Verificar funcionamento da página de Login e suas funcionalidades |
-|:---|:---|
-| Resultados obtidos |Foi realizado com sucesso o teste colocando o login e senha .|
-| Responsável pela execução do caso de Teste | Fabiano |
-
-A página inicial sendo visualizada normalmente. 
-![Teste_prestadores_inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20132907.png)
-
-Apos login e senha a pagina sendo direcionada para tela de pesquisa.
-![Teste_prestadores_segunda](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20142722.png)
-Se o usuario não for cadastrado a pagina direciona ele para a tela de cadastro.
-![Teste_prestadores_terceira](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20143017.png)
