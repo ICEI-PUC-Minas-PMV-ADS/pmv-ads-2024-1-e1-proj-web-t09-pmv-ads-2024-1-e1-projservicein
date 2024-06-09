@@ -61,4 +61,4 @@ A página inicial sendo visualizada normalmente.
 Feita a consulta na barra de pesquisa.
 ![Teste_prestadores_segunda]https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20142722.png
 Informações de valores/faixas de preço sendo visualizadas.
-![Teste_prestadores_terceira]
+![Teste_prestadores_terceira]https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20143017.png
