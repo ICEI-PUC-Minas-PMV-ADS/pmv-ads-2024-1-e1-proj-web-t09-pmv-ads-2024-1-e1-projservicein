@@ -8,7 +8,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | Resultados obtidos | Foi possível acessar a página normalmente. Foi feito o teste e não é ṕossível salvar o cadastro com campos obrigatórios não preenchidos. Foi verificado que não foram aplicadas máscaras e nem filtros específicos nos campos. Com as informações preenchidas o cadastro é realizado normalmente.|
 | Responsável pela execução do caso de Teste | Sara |
 
-![Teste homePage]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/ServiceIn%20-%20Teste%20de%20funcionamento%20da%20homePage.mp4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/issues/14))
+([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/ServiceIn%20-%20Teste%20de%20funcionamento%20da%20homePage.mp4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/issues/14))
 <hr>
 
 |Caso de Teste    | CT-04 - Verificar funcionamento do cadastro do usuário |
