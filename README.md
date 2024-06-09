@@ -1,17 +1,16 @@
 # ServiceIn
 
-`Análise e Desenvolvimento de Sistemas`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
 `Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`Eixo 1`
+`Eixo 1/2024`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
 * Aline Moreira
-* Aloísio Luchesi de Almeida Silva
 * Fabiano Silva Lima
 * Gustavo de Figueiredo Souza Oliveira
 * Milton Roberto Garcia Ventura
