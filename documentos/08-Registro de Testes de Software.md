@@ -52,13 +52,13 @@ Informações de valores/faixas de preço sendo visualizadas.
 
 |Caso de Teste    | CT-06 - Verificar funcionamento da página de Login e suas funcionalidades |
 |:---|:---|
-| Resultados obtidos | Foi possível acessar a página normalmente. Foi possível ter acesso a pagina inicial, fazer a consulta por um serviço que deseja e ter também acesso aos valores/faixas de preço oferecido pelos prestadores de serviço.|
-| Responsável pela execução do caso de Teste | Gustavo |
+| Resultados obtidos |Foi realizado com sucesso o teste colocando o login e senha .|
+| Responsável pela execução do caso de Teste | Fabiano |
 
 A página inicial sendo visualizada normalmente. 
 ![Teste_prestadores_inicial]https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20132907.png
 
-Feita a consulta na barra de pesquisa.
+Apos login e senha a pagina sendo direcionada para tela de pesquisa.
 ![Teste_prestadores_segunda]https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20142722.png
-Informações de valores/faixas de preço sendo visualizadas.
+Se o usuario não for cadastrado a pagina direciona ele para a tela de cadastro.
 ![Teste_prestadores_terceira]https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Captura%20de%20tela%202024-06-09%20143017.png
