@@ -1,6 +1,11 @@
 # Plano de Testes de Software
 
-[Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
+<span style="color:red">Pré-requisitos: <a href="[documentos/02-Especificação do Projeto.md](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/1e5cfed5451a502245729c91651895bbf5721d1f/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/1e5cfed5451a502245729c91651895bbf5721d1f/documentos/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>
+
+Os requisitos para realização dos testes de software são:
+<ul><li>Site publicado na internet;</li>
+<li>Navegador da internet: Chrome, Firefox ou Edge.</li>
+</ul>
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
@@ -53,10 +58,4 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Responsável pela elaboraração do caso de Teste | Milton |
 
  <hr> 
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+
