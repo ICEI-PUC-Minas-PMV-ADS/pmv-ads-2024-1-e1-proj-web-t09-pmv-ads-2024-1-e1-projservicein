@@ -30,3 +30,19 @@ Cadastro de usuário prestador de serviço, ofercendo um serviço na plataforma:
 
 Cadastro salvo no localStorage com as informações do serviço prestado:
 ![evidenciaCT04-7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/assets/165446124/7e08ba6b-9454-4b47-9fb4-e1b2e83544dc)
+
+<hr>
+
+|Caso de Teste    | CT-06 - Verificar funcionamento da página prestadores e suas funcionalidades |
+|:---|:---|
+| Resultados obtidos | Foi possível acessar a página normalmente. Foi possível ter acesso a pagina inicial, fazer a consulta por um serviço que deseja e ter também acesso aos valores/faixas de preço oferecido pelos prestadores de serviço.|
+| Responsável pela execução do caso de Teste | Gustavo |
+
+A página inicial sendo visualizada normalmente. 
+![Teste_prestadores_inicial](documentos/img/Teste_prestadores_inicial.png)
+
+Feita a consulta na barra de pesquisa.
+![Teste_prestadores_segunda](documentos/img/Teste_prestadores_segunda.png)
+
+Informações de valores/faixas de preço sendo visualizadas.
+![Teste_prestadores_terceira](documentos/img/Tela_prestadores_terceira.png) 
