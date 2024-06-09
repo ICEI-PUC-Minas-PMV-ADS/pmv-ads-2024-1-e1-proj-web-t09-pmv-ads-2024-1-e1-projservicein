@@ -8,7 +8,8 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 | Resultados obtidos | Foi possível acessar a página normalmente. Foi feito o teste e não é ṕossível salvar o cadastro com campos obrigatórios não preenchidos. Foi verificado que não foram aplicadas máscaras e nem filtros específicos nos campos. Com as informações preenchidas o cadastro é realizado normalmente.|
 | Responsável pela execução do caso de Teste | Sara |
 
-
+![Teste homePage](https://youtu.be/Yqltf2q88QM)
+<hr>
 
 |Caso de Teste    | CT-04 - Verificar funcionamento do cadastro do usuário |
 |:---|:---|
