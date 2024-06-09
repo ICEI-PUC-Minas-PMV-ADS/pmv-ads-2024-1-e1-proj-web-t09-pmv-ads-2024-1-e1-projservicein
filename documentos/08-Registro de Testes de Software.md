@@ -46,3 +46,21 @@ Feita a consulta na barra de pesquisa.
 
 Informações de valores/faixas de preço sendo visualizadas.
 ![Teste_prestadores_terceira](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Tela_prestadores_terceira.png) 
+
+
+
+
+|Caso de Teste    | CT-06 - Verificar funcionamento da página prestadores e suas funcionalidades |
+|:---|:---|
+| Resultados obtidos | Foi possível acessar a página normalmente. Foi possível ter acesso a pagina inicial, fazer a consulta por um serviço que deseja e ter também acesso aos valores/faixas de preço oferecido pelos prestadores de serviço.|
+| Responsável pela execução do caso de Teste | Gustavo |
+
+A página inicial sendo visualizada normalmente. 
+![Teste_prestadores_inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Teste_prestadores_inicial.png)
+
+Feita a consulta na barra de pesquisa.
+![Teste_prestadores_segunda](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Teste_prestadores_segunda.png)
+
+Informações de valores/faixas de preço sendo visualizadas.
+![Teste_prestadores_terceira](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/main/documentos/img/Tela_prestadores_terceira.png) 
+
