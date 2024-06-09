@@ -3,6 +3,12 @@
 Relatório com as evidências dos testes de software realizados na aplicação pela equipe, baseado no plano de testes pré-definido.
 
 Os resultados dos testes funcionais realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste executado]
+|Caso de Teste    | CT-01 - Verificar funcionamento dos links e filtros por pesquisa na Homepage |
+|:---|:---|
+| Resultados obtidos | Foi possível acessar a página normalmente. Foi feito o teste e não é ṕossível salvar o cadastro com campos obrigatórios não preenchidos. Foi verificado que não foram aplicadas máscaras e nem filtros específicos nos campos. Com as informações preenchidas o cadastro é realizado normalmente.|
+| Responsável pela execução do caso de Teste | Sara |
+
+
 
 |Caso de Teste    | CT-04 - Verificar funcionamento do cadastro do usuário |
 |:---|:---|
