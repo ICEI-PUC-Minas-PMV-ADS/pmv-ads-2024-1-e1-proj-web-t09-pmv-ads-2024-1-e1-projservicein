@@ -41,6 +41,7 @@ main{
 }
 
 .login{
+    grid-area: main;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -48,6 +49,7 @@ main{
     justify-content: center;
     height: 100%;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .login input{

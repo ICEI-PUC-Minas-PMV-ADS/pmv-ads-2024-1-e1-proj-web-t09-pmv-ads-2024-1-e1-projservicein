@@ -54,6 +54,32 @@ header .logoffbtn {
 
 }
 
+header .loginbtn {
+    color: #6f5097;
+    border-radius: 10px;
+    max-height: 25px;
+    padding: 5px;
+    margin: 5px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: solid #6f5097;
+    text-align: left;
+    /* Utilização e posicionamento do ícone de logoff dentro do botão logoff*/
+    background-image: url(imgs/loginicon.png);
+    background-position: 94%;
+    background-size: 15px;
+    background-repeat: no-repeat;
+
+}
+
+header .cadastrobtn{
+    color: #6f5097;
+    border-radius: 10px;
+    border: solid #6f5097;
+    text-align: center;
+    padding: 5px;
+    max-height: 35px;  
+}
 /* Definições do conteúdo principal da página */
 main {
     grid-area: main;
@@ -115,8 +141,6 @@ main .banner {
     display: flex;
     justify-content: center;
     font-weight: bold;
-    /* Verificar se remove ou não, ao remover o comportamento do banner fica diferente em telas menores */
-    flex-wrap: wrap;
 }
 
 /* Borda arredondada e redimensionamento das imagens do banner */
