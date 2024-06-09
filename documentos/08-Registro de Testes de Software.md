@@ -33,6 +33,19 @@ Cadastro salvo no localStorage com as informações do serviço prestado:
 
 <hr>
 
+|Caso de Teste    | CT-05 - Verificar funcionamento do chat e realizar avaliação de um fornecedor |
+|:---|:---|
+| Resultados obtidos | Foi possível acessar a página e avaliar o prestador normalmente, as informações de avaliação foram enviadas para o localStorage. Tembém foi possível obter retorno em relação a serviços, custos e horários através do chat.|
+| Responsável pela execução do caso de Teste | Aline |
+
+Após o envio do número correspondente a informação necessária a resposta é exibida no chat:
+![chatpagechat01](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/90ba9f5546474debdfb3fb0c1bcd4558712759e1/documentos/img/chatpagechat01.png)
+
+Avaliações de nota e comentários enviados para o localStorage:
+![chatpage-localstorage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/dad983ed045930ea4920d4e7bf736b6734b7bc8d/documentos/img/chatpage-localstorage.png)
+
+<hr>
+
 |Caso de Teste    | CT-06 - Verificar funcionamento da página prestadores e suas funcionalidades |
 |:---|:---|
 | Resultados obtidos | Foi possível acessar a página normalmente. Foi possível ter acesso a pagina inicial, fazer a consulta por um serviço que deseja e ter também acesso aos valores/faixas de preço oferecido pelos prestadores de serviço.|
