@@ -1,6 +1,6 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="[documentos/02-Especificação do Projeto.md](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/1e5cfed5451a502245729c91651895bbf5721d1f/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md)"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/1e5cfed5451a502245729c91651895bbf5721d1f/documentos/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/1e5cfed5451a502245729c91651895bbf5721d1f/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/blob/1e5cfed5451a502245729c91651895bbf5721d1f/documentos/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>
 
 Os requisitos para realização dos testes de software são:
 <ul><li>Site publicado na internet;</li>
