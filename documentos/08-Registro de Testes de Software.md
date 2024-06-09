@@ -6,7 +6,7 @@ Os resultados dos testes funcionais realizados na aplicação são descritos a s
 
 |Caso de Teste    | CT-04 - Verificar funcionamento do cadastro do usuário |
 |:---|:---|
-| Resultados obtidos | Foi possível acessar a página normalmente. Foi feito o teste e não é ṕossível salvar o cadastro com campos obrigatórios não preenchidos. Foi verificado que não foram aplicadas máscaras e nem filtros específicos nos campos. Com as informações devidamente preenchidas o cadastro é realizado normalmente.|
+| Resultados obtidos | Foi possível acessar a página normalmente. Foi feito o teste e não é ṕossível salvar o cadastro com campos obrigatórios não preenchidos. Foi verificado que não foram aplicadas máscaras e nem filtros específicos nos campos. Com as informações preenchidas o cadastro é realizado normalmente.|
 | Responsável pela execução do caso de Teste | Milton |
 
 Alerta informando que existem campos não preenchidos e que impede o cadastro:
