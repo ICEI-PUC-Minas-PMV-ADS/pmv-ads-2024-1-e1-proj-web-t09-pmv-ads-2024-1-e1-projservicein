@@ -1,20 +1,43 @@
-let termPesq = JSON.parse(localStorage.getItem('termPesq'));
-if (termPesq) {
-    termPesq = termPesq.trim().toLowerCase();
+function retornaTermPesq() {
+    let termPesq = JSON.parse(localStorage.getItem('termPesq'));
+    if (termPesq) {
+        termPesq = termPesq.trim().toLowerCase();
+    }
+    return termPesq;
+}
+
+function insereTermPesq(termo){
+    localStorage.termPesq = JSON.stringify(termo);
+}
+
+function usrLogado(){
+    let usrLogado = JSON.parse(localStorage.getItem('usrLogado'));
+    if (usrLogado){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+function criaBotao(nomebtn, txtbotao ){
+    let botao = document.createElement("button");
+    botao.id = nomebtn;
+    botao.className = nomebtn;
+    botao.textContent = txtbotao;
+    return botao;
 }
 
 function imprimeHeader() {
-    let usrLogado = JSON.parse(localStorage.getItem('usrLogado'))
-
-    if (usrLogado) {
+    if (usrLogado()) {
         logo.onclick = function () {
             location.reload();
         }
-        let btnContent = `<img src="imgs/userround.png" alt="Foto de usuário redonda">
-        <button id="logoffbtn" class="logoffbtn">Logout</button>`;
-
-        hdrButtons.innerHTML = btnContent;
-        let logoffbtn = document.getElementById('logoffbtn');
+        let userimg = document.createElement("img");
+        userimg.src = "imgs/userround.png";
+        userimg.alt = "Imagem de perfil do usuário"
+        let logoffbtn = criaBotao("logoffbtn", "Logout");
+        hdrButtons.appendChild(userimg);
+        hdrButtons.appendChild(logoffbtn);
         if (logoffbtn) {
             logoffbtn.onclick = function () {
                 localStorage.usrLogado = false;
@@ -27,17 +50,15 @@ function imprimeHeader() {
         logo.onclick = function () {
             window.location.href = ('../homePage/index.html');
         }
-        btnContent = `<button id="cadastrobtn" class="cadastrobtn">Cadastre-se</button>
-        <button id="loginbtn" class="loginbtn">Login</button>`
-
-        hdrButtons.innerHTML = btnContent;
-        let loginbtn = document.getElementById('loginbtn');
+        let cadastrobtn = criaBotao("cadastrobtn", "Cria Conta")
+        let loginbtn = criaBotao("loginbtn", "Login")
+        hdrButtons.appendChild(cadastrobtn);
+        hdrButtons.appendChild(loginbtn);
         if (loginbtn) {
             loginbtn.onclick = function () {
                 window.location.href = ('../loginPage/login.html');
             }
         }
-        let cadastrobtn = document.getElementById('cadastrobtn');
         if (cadastrobtn) {
             cadastrobtn.onclick = function () {
                 window.location.href = ('../cadastro/cadastro.html');
@@ -49,13 +70,11 @@ function imprimeHeader() {
 }
 
 searchButton.onclick = function () {
-    localStorage.termPesq = JSON.stringify(searchBar.value);
+    insereTermPesq(searchBar.value)
     if (!window.location.href.endsWith('prestadores.html')) {
         window.location.href = ('../prestadores/prestadores.html');
     }
-    termPesq = JSON.parse(localStorage.getItem('termPesq'));
-    termPesq = termPesq.trim().toLowerCase();
-    imprimePrestadores(termPesq);
+    imprimePrestadores(retornaTermPesq());
 };
 
 function retornaListaUsers() {
@@ -77,7 +96,8 @@ function retornaPrestadores() {
 }
 
 function imprimePrestadores(termPesq = "") {
-    termPesq = termPesq.trim().toLowerCase();
+    termPesq = retornaTermPesq();
+    console.log(termPesq);
     let conteudo = "";
     let listaPrestadores = retornaPrestadores();
     if (termPesq) {
@@ -103,12 +123,17 @@ function imprimePrestadores(termPesq = "") {
                     if (dado.includes(termPesq)) {
                         prestadorPresente = false
                         for (prestadorResult of listaPesquisada) {
-                            if (prestadorResult == prestador) {
+                            if (prestadorResult.id == prestador.id) {
                                 prestadorPresente = true
                             }
                         }
                         if (!prestadorPresente) {
-                            listaPesquisada.push(prestador);
+                            prestadorServ = {
+                                id: prestador.id,
+                                nome: prestador.nome,
+                                servicosPrestados: [servico]
+                            }
+                            listaPesquisada.push(prestadorServ);
                         }
                     }
                 })
@@ -143,15 +168,15 @@ function imprimePrestadores(termPesq = "") {
         });
     });
     cardPrestadores.innerHTML = conteudo;
-    localStorage.termPesq = JSON.stringify('');
+    insereTermPesq('');
     searchBar.value = '';
 }
 
 cardPrestadores.onclick = function () {
     let usrLogado = JSON.parse(localStorage.getItem('usrLogado'));
-    if (usrLogado){
+    if (usrLogado) {
         window.location.href = ('../chatPage/chat.html');
-    }else{
+    } else {
         window.location.href = ('../cadastro/cadastro.html')
     }
 }
@@ -163,12 +188,13 @@ function retornaNumRandom() {
 
 let imgBanner = document.querySelectorAll('#imgbanner');
 let valorBanner = document.querySelectorAll('#txtbanner');
-for(let i = 0; i < imgBanner.length; i++){
-    imgBanner[i].addEventListener('click', function(){
-        imprimePrestadores(valorBanner[i].textContent);
+for (let i = 0; i < imgBanner.length; i++) {
+    imgBanner[i].addEventListener('click', function () {
+        insereTermPesq(valorBanner[i].textContent);
+        imprimePrestadores(retornaTermPesq());
     })
 }
 
-imprimePrestadores(termPesq);
+imprimePrestadores(retornaTermPesq());
 imprimeHeader();
 
