@@ -97,7 +97,6 @@ function retornaPrestadores() {
 
 function imprimePrestadores(termPesq = "") {
     termPesq = retornaTermPesq();
-    console.log(termPesq);
     let conteudo = "";
     let listaPrestadores = retornaPrestadores();
     if (termPesq) {

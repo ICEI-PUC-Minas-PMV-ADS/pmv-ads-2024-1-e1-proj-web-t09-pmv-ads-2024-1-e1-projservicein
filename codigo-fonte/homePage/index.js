@@ -1,3 +1,16 @@
+// Carrega usuários fake
+// Retorna lista de usuários cadastrados ou vazio caso não exista
+function retornaListaUsers() {
+    let listaUsuarios = [];
+    listaUsuarios = JSON.parse(localStorage.getItem("arrUsuarios")) || [];
+    return listaUsuarios;
+}
+
+// Carrega lista de usuários fake caso não existam usuários cadastrados previamente
+if(retornaListaUsers().length == 0){
+    localStorage.arrUsuarios = JSON.stringify(window.arrUsuarios);
+}
+
 const items = [
     { nome: 'Marido de Aluguel', imagem: 'img/maridodealuguel.png' },
     { nome: 'Frete', imagem: 'img/entregador.png' },
