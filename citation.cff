@@ -1,0 +1,23 @@
+message: Please cite this software using these metadata.
+title: ServiceIn
+authors: 
+  - family-names: Moreira
+    given-names: Aline
+  - family-names: Silva Lima
+    given-names: Fabiano
+  - family-names: de Figueiredo Souza Oliveira
+    given-names: Gustavo
+  - family-names: Roberto Garcia Ventura
+    given-names: Milton
+  - family-names: Gracielle Rodrigues Santos
+    given-names: Sara 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Azevedo Nigri do Carmo
+    given-names: Humberto 
+keywords:
+  - Serviços
+  - Prestador
+repository-code:  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein
+version: 1.0.0
+date-released: 2024-06-09
