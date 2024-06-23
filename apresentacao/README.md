@@ -13,5 +13,4 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads
 
 
 ## Hospedagem
-Foi utilizada a plataforma Github Pages como ambiente de hospedagem do site do projeto, que será mantido na URL:
-[Adicione o endereço eletrônico público onde o site encontra-se hospedado.]
+Foi utilizada a plataforma Github Pages como ambiente de hospedagem do site do projeto, que será mantido na URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/src/homePage/index.html
