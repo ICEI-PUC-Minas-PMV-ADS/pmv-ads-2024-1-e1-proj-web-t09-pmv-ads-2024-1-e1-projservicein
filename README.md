@@ -6,7 +6,7 @@
 
 `Eixo 1/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O objetivo geral deste projeto é a criação de uma aplicação web de fácil acesso e uso que permita conectar prestadores de serviços autônomos aos seus potenciais clientes. 
 
 ## Integrantes
 
