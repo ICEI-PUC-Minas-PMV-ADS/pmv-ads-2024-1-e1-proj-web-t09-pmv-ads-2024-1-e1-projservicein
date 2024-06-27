@@ -10,7 +10,7 @@
 
 ## Instalação do Site
 
-O site em HTML/CSS é um projeto estático, logo pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/src/homePage/index.html">aqui</a> para acessar as páginas do projeto. 
+O site em HTML/CSS é um projeto estático, logo pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t09-pmv-ads-2024-1-e1-projservicein/homePage/index.html">aqui</a> para acessar as páginas do projeto. 
 
 ## Histórico de versões
 
